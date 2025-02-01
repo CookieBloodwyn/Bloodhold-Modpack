@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MPCharacters>
+  <!-- Empire Heros -->
+  <NPCCharacter id="mp_skirmisher_empire_hero"
+                default_group="Infantry"
+                level="10"
+                name="Atria Pesants"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_javelin" />
+        <equipment slot="Item1"
+                   id="Item.mp_leather_bound_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.mp_empire_gladius" />
+        <equipment slot="Body"
+                   id="Item.mp_tunic_with_shoulder_pads" />
+        <equipment slot="Leg"
+                   id="Item.mp_empire_horseman_boots" />
+        <equipment slot="Head"
+                   id="Item.mp_laced_coif" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_shock_infantry_empire_hero"
+                default_group="Infantry"
+                level="25"
+                name="Duchy de Gryphon"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+     <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_menavlion" />
+        <equipment slot="Body"
+                   id="Item.mp_empire_warrior_padded_armor_g" />
+        <equipment slot="Leg"
+                   id="Item.mp_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_shock_infantry_empire_herooo"
+                default_group="Infantry"
+                level="25"
+                name="Barony of Emberland"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+     <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_menavlion" />
+        <equipment slot="Body"
+                   id="Item.mp_empire_warrior_padded_armor_g" />
+        <equipment slot="Leg"
+                   id="Item.mp_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_infantry_empire_hero"
+                default_group="Infantry"
+                level="25"
+                name="Barony of StormCrest"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="41.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="51.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Item1"
+                   id="Item.mp_reinforced_flat_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_ironlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Body"
+                   id="Item.mp_legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.mp_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_infantry_empire_heross"
+                default_group="Infantry"
+                level="25"
+                name="Barony of WhiteWater Bay"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="41.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="51.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Item1"
+                   id="Item.mp_reinforced_flat_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_ironlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Body"
+                   id="Item.mp_legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.mp_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_infantry_empire_Iron"
+                default_group="Infantry"
+                level="25"
+                name="County de Ironwood"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="41.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="51.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Item1"
+                   id="Item.mp_reinforced_flat_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_ironlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Body"
+                   id="Item.mp_legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.mp_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_infantry_empire_Darkspire"
+                default_group="Infantry"
+                level="25"
+                name="Barony of Darkspire"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="41.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="51.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Item1"
+                   id="Item.mp_reinforced_flat_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_ironlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Body"
+                   id="Item.mp_legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.mp_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_infantry_empire_WhiteWaterBay"
+                default_group="Infantry"
+                level="25"
+                name="Barony of Thornefield"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="41.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="51.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Item1"
+                   id="Item.mp_reinforced_flat_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_ironlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Body"
+                   id="Item.mp_legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.mp_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_infantry_empire_Lycanbane"
+                default_group="Infantry"
+                level="25"
+                name="Barony of Lycanbane"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="41.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="51.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Item1"
+                   id="Item.mp_reinforced_flat_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_ironlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Body"
+                   id="Item.mp_legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.mp_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_infantry_empire_heros"
+                default_group="Infantry"
+                level="25"
+                name="Barony of Silvermoore"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="41.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="51.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Item1"
+                   id="Item.mp_reinforced_flat_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_ironlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Body"
+                   id="Item.mp_legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.mp_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+    <NPCCharacter id="mp_heavy_ranged_empire_hero"
+                default_group="Ranged"
+                level="20"
+                name="Atria Ranged"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="15;0.2;0.1333;880000002;30000;0;6000000007000;2300202000000;0;0;380000" max_value="16;0.5525;0.7932;11A80CC03C0010;FFFFFFFF8878FFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;C8FF20CFFFFFF;0;0;405142"/-->
+      <BodyProperties version="4"
+                      age="29.04"
+                      weight="0.2"
+                      build="0.1333"
+                      key="00000008800000020000000000030000000000000000000000060000000070000002300802000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="49.96"
+                         weight="0.5525"
+                         build="0.7932"
+                         key="0011A80CC03C0010FFFFFFFF8878FFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000C8FFC0CFFFFFF000000000000000000000000000000000000000001185143" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="100" />
+      <skill id="Bow"
+             value="100" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_imperial_recurve_bow" />
+        <equipment slot="Item1"
+                   id="Item.mp_arrows_barbed" />
+        <equipment slot="Item2"
+                   id="Item.mp_empire_spatha" />
+        <equipment slot="Head"
+                   id="Item.mp_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.mp_imperial_mail_vest" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+        <equipment slot="Leg"
+                   id="Item.mp_fine_town_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_light_cavalry_empire_hero"
+                default_group="Cavalry"
+                level="15"
+                name="Man at Arms"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="28.8;0.2667;0.2562;880000002;40000;0;6000000007000;4400304000000;0;0;300000" max_value="54.53;0.7377;0.4568;11A80CC03C0010;FFFFFFFF887BFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;7BFF607FFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="28.8"
+                      weight="0.2667"
+                      build="0.2562"
+                      key="00000008800000020000000000040000000000000000000000060000000070000004400304000000000000000000000000000000000000000000000000C80000" />
+      <BodyPropertiesMax version="4"
+                         age="54.53"
+                         weight="0.7377"
+                         build="0.4568"
+                         key="0011A80CC03C0010FFFFFFFF887BFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF0007BFF607FFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+   <skills>
+     <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_western_long_spear" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_long_spatha" />
+        <equipment slot="Item2"
+                   id="Item.mp_studded_round_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_segmented_cervelliere_over_padded_cloth" />
+        <equipment slot="Body"
+                   id="Item.mp_basic_imperial_leather_armor" />
+        <equipment slot="Gloves"
+                   id="Item.mp_leather_gloves" />
+        <equipment slot="Leg"
+                   id="Item.mp_leather_cavalier_boots" />
+        <equipment slot="Horse"
+                   id="Item.mp_empire_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.mp_stripped_leather_harness" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_light_cavalry_empire_heros"
+                default_group="Cavalry"
+                level="15"
+                name="Lords"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="28.8;0.2667;0.2562;880000002;40000;0;6000000007000;4400304000000;0;0;300000" max_value="54.53;0.7377;0.4568;11A80CC03C0010;FFFFFFFF887BFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;7BFF607FFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="28.8"
+                      weight="0.2667"
+                      build="0.2562"
+                      key="00000008800000020000000000040000000000000000000000060000000070000004400304000000000000000000000000000000000000000000000000C80000" />
+      <BodyPropertiesMax version="4"
+                         age="54.53"
+                         weight="0.7377"
+                         build="0.4568"
+                         key="0011A80CC03C0010FFFFFFFF887BFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF0007BFF607FFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+   <skills>
+     <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_western_long_spear" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_long_spatha" />
+        <equipment slot="Item2"
+                   id="Item.mp_studded_round_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_segmented_cervelliere_over_padded_cloth" />
+        <equipment slot="Body"
+                   id="Item.mp_basic_imperial_leather_armor" />
+        <equipment slot="Gloves"
+                   id="Item.mp_leather_gloves" />
+        <equipment slot="Leg"
+                   id="Item.mp_leather_cavalier_boots" />
+        <equipment slot="Horse"
+                   id="Item.mp_empire_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.mp_stripped_leather_harness" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!-- Empire Troops -->
+  <NPCCharacter id="mp_light_ranged_empire_troop"
+                default_group="Infantry"
+                level="30"
+                name="Order of Luminous"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="31.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="45.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+   <skills>
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_hunting_bow_captain" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_gladius" />
+        <equipment slot="Item2"
+                   id="Item.mp_arrows_barbed" />
+        <equipment slot="Body"
+                   id="Item.mp_footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.mp_fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_hunting_bow_captain" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_gladius" />
+        <equipment slot="Item2"
+                   id="Item.mp_arrows_barbed" />
+        <equipment slot="Head"
+                   id="Item.mp_laced_cloth_coif" />
+        <equipment slot="Body"
+                   id="Item.mp_tunic_with_rolled_cloth" />
+        <equipment slot="Leg"
+                   id="Item.mp_leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_hunting_bow_captain" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_gladius" />
+        <equipment slot="Item2"
+                   id="Item.mp_arrows_barbed" />
+        <equipment slot="Head"
+                   id="Item.mp_imperial_leather_coif" />
+        <equipment slot="Body"
+                   id="Item.mp_footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.mp_empire_horseman_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_cavalry_empire_hero"
+                default_group="Cavalry"
+                level="30"
+                name="Knights/Squires"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="83.56;0.4;0.4;880000181;60000;0;6000000007000;6600A06000000;0;0;200000" max_value="101.75;0.8;1;11A80CC03C030F;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;FCFFC0FFFFFFF;0;0;405142" /-->
+      <BodyProperties version="4"
+                      age="83.56"
+                      weight="0.4"
+                      build="0.4"
+                      key="00000008800001810000000000060000000000000000000000060000000070000006600A06000000000000000000000000000000000000000000000000780000" />
+      <BodyPropertiesMax version="4"
+                         age="101.75"
+                         weight="0.8"
+                         build="1"
+                         key="0011A80CC03C030FFFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000FCFFC0FFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_western_lance" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_paramerion" />
+        <equipment slot="Item2"
+                   id="Item.mp_studded_round_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_imperial_goggled_helmet" />
+        <equipment slot="Body"
+                   id="Item.mp_imperial_lamellar" />
+        <equipment slot="Gloves"
+                   id="Item.mp_lamellar_plate_gauntlets" />
+        <equipment slot="Leg"
+                   id="Item.mp_lamellar_plate_boots" />
+        <equipment slot="Horse"
+                   id="Item.mp_empire_horse_war" />
+        <equipment slot="HorseHarness"
+                   id="Item.mp_imperial_scale_barding" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_light_ranged_empire_troops"
+                default_group="Infantry"
+                level="5"
+                name="Atria Mercenaries"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="51.23;0.3963;0.3951;1000300;67000;0;0;6660606000000;0;0;380000" max_value="81.79;0.6728;1;5FC059A0034D0;FFFFFFFF887AFFFF;FFFEFFFB6FB7FFFF;FFFFFFFFFFFFFFFF;FAFFA0FFFFFFF;0;0;480141" /-->
+      <BodyProperties version="4"
+                      age="31.23"
+                      weight="0.3963"
+                      build="0.3951"
+                      key="00000000010003000000000000067000000000000000000000000000000000000006660606000000000000000000000000000000000000000000000001180000" />
+      <BodyPropertiesMax version="4"
+                         age="45.79"
+                         weight="0.6728"
+                         build="1"
+                         key="0005FC059A0034D0FFFFFFFF887AFFFFFFFEFFFB6FB7FFFFFFFFFFFFFFFFFFFF000FAFFA0FFFFFFF000000000000000000000000000000000000000001680141" />
+    </face>
+   <skills>
+   <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_hunting_bow_captain" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_gladius" />
+        <equipment slot="Item2"
+                   id="Item.mp_arrows_barbed" />
+        <equipment slot="Body"
+                   id="Item.mp_footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.mp_fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_hunting_bow_captain" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_gladius" />
+        <equipment slot="Item2"
+                   id="Item.mp_arrows_barbed" />
+        <equipment slot="Head"
+                   id="Item.mp_laced_cloth_coif" />
+        <equipment slot="Body"
+                   id="Item.mp_tunic_with_rolled_cloth" />
+        <equipment slot="Leg"
+                   id="Item.mp_leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_hunting_bow_captain" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_gladius" />
+        <equipment slot="Item2"
+                   id="Item.mp_arrows_barbed" />
+        <equipment slot="Head"
+                   id="Item.mp_imperial_leather_coif" />
+        <equipment slot="Body"
+                   id="Item.mp_footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.mp_empire_horseman_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="mp_heavy_cavalry_empire_troop"
+                default_group="Cavalry"
+                level="30"
+                name="Lords"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="83.56;0.4;0.4;880000181;60000;0;6000000007000;6600A06000000;0;0;200000" max_value="101.75;0.8;1;11A80CC03C030F;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;FCFFC0FFFFFFF;0;0;405142" /-->
+      <BodyProperties version="4"
+                      age="83.56"
+                      weight="0.4"
+                      build="0.4"
+                      key="00000008800001810000000000060000000000000000000000060000000070000006600A06000000000000000000000000000000000000000000000000780000" />
+      <BodyPropertiesMax version="4"
+                         age="101.75"
+                         weight="0.8"
+                         build="1"
+                         key="0011A80CC03C030FFFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000FCFFC0FFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+    <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_western_lance" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_paramerion" />
+        <equipment slot="Item2"
+                   id="Item.mp_studded_round_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_imperial_goggled_helmet" />
+        <equipment slot="Body"
+                   id="Item.mp_imperial_lamellar" />
+        <equipment slot="Gloves"
+                   id="Item.mp_plated_strip_gauntlets" />
+        <equipment slot="Leg"
+                   id="Item.mp_decorated_imperial_boots" />
+        <equipment slot="Horse"
+                   id="Item.mp_empire_horse_war" />
+        <equipment slot="HorseHarness"
+                   id="Item.mp_imperial_scale_barding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_western_lance" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_paramerion" />
+        <equipment slot="Item2"
+                   id="Item.mp_studded_round_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_imperial_goggled_helmet" />
+        <equipment slot="Body"
+                   id="Item.mp_lamellar_with_scale_skirt" />
+        <equipment slot="Gloves"
+                   id="Item.mp_reinforced_leather_vambraces" />
+        <equipment slot="Leg"
+                   id="Item.mp_decorated_imperial_boots" />
+        <equipment slot="Horse"
+                   id="Item.mp_empire_horse_war" />
+        <equipment slot="HorseHarness"
+                   id="Item.mp_imperial_scale_barding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mp_western_lance" />
+        <equipment slot="Item1"
+                   id="Item.mp_empire_paramerion" />
+        <equipment slot="Item2"
+                   id="Item.mp_studded_round_shield" />
+        <equipment slot="Head"
+                   id="Item.mp_nordic_helmet" />
+        <equipment slot="Body"
+                   id="Item.mp_northern_brass_lamellar_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.mp_plated_strip_gauntlets" />
+        <equipment slot="Leg"
+                   id="Item.mp_decorated_imperial_boots" />
+        <equipment slot="Horse"
+                   id="Item.mp_empire_horse_war" />
+        <equipment slot="HorseHarness"
+                   id="Item.mp_imperial_scale_barding" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+</MPCharacters>

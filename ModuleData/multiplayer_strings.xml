@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <string id="str_troop_description.mp_vsc_light_ranged_sturgia" text="The Völsung Warriors are a mighty foe. Any enemy would be wise to run away." />
+  <string id="str_troop_description.mp_vsc_heavy_infantry_khuzait" text="The Degmar Warriors are a mighty foe. Any enemy would be wise to run away." />
+  <string id="str_multiplayer_scene_name.VSC_Arena" text="{=*}VSC Arena" />
+  <string id="str_multiplayer_scene_name.VSC_Training_Grounds" text="{=*}VSC Training Grounds" />
+  <string id="str_multiplayer_scene_name.VSC_Training_Map" text="{=*}VSC Training Map" />    
+  <string id="str_multiplayer_scene_name.VSC_Promotion" text="{=*}VSC Promotion" />  
+  <string id="str_multiplayer_scene_name.Huskarl_Tournament" text="{=*}Huskarl Tournament" />  
+    <string id="str_multiplayer_scene_name.Viking_raid" text="{=*}Viking Raid" />  
+</strings>

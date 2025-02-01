@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<MPCharacters>
+	<!--Battanian Heros-->
+	<NPCCharacter
+		id="mp_light_infantry_battania_hero"
+		default_group="Infantry"
+		level="10"
+		name="Sword Masters"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="22;0.1333;0;440000001;100000000027000;7001000000000;0;200306000000;0;0;300000" max_value="33.86;0.5333;0.3333;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;58FF405FFFEFF;0;0;389181"/-->
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.1333"
+				build="0"
+				key="00000004400000010100000000027000000700100000000000000000000000000000200306000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="33.86"
+				weight="0.5333"
+				build="0.3333"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF00058FF405FFFEFF000000000000000000000000000000000000000001189181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_highland_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="25" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_heavy_infantry_battania_hero"
+		default_group="Infantry"
+		level="25"
+		name="Sword Followers "
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="38.89;0.2;0.2;440000001;100000000037000;7001000000000;0;3300503000000;0;0;300000" max_value="63.08;0.5309;0.663;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;A8FF70AFFFEFF;0;0;489181"/-->
+			<BodyProperties
+				version="4"
+				age="38.89"
+				weight="0.2"
+				build="0.2"
+				key="00000004400000010100000000037000000700100000000000000000000000000003300503000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="63.08"
+				weight="0.5309"
+				build="0.663"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000A8FF70AFFFEFF000000000000000000000000000000000000000001689181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="50" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_heavy_oval_shield" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battanian_crowned_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.mp_ranger_mail" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_woodland_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="40" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_shock_infantry_battania_hero"
+		default_group="Infantry"
+		level="25"
+		name="Berserkers"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="31;0.266;0.5247;141000340;100000000047000;7001000000000;0;8400408000000;0;0;380000" max_value="63.19;0.466;0.9994;BFC0B4D3C34D4;FFFFFAFFAAA7FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;F7FF70FFFFEFF;0;0;589181"/-->
+			<BodyProperties
+				version="4"
+				age="31"
+				weight="0.266"
+				build="0.5247"
+				key="00000001410003400100000000047000000700100000000000000000000000000008400408000000000000000000000000000000000000000000000001180000" />
+			<BodyPropertiesMax
+				version="4"
+				age="45.19"
+				weight="0.466"
+				build="0.9994"
+				key="000BFC0B4D3C34D4FFFFFAFFAAA7FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000F7FF70FFFFEFF000000000000000000000000000000000000000001B89181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_falx" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battanian_savage_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_highland_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_armwraps" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="30" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_skirmisher_battania_hero"
+		default_group="Infantry"
+		level="10"
+		name="Celtic Skirmishers"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="22;0.1333;0;440000001;100000000027000;7001000000000;0;200306000000;0;0;300000" max_value="33.86;0.5333;0.3333;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;58FF405FFFEFF;0;0;389181"/-->
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.1333"
+				build="0"
+				key="00000004400000010100000000027000000700100000000000000000000000000000200306000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="33.86"
+				weight="0.5333"
+				build="0.3333"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF00058FF405FFFEFF000000000000000000000000000000000000000001189181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_javelin" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_large_shield_b" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_plumed_helmet" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battania_shoulder_strap" />
+				<equipment
+					slot="Body"
+					id="Item.mp_hauberk" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_fur_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="35" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_light_ranged_battania_hero"
+		default_group="Ranged"
+		level="5"
+		name="Celtic Huntsman"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="38.89;0.2;0.2;440000001;100000000037000;7001000000000;0;3300503000000;0;0;300000" max_value="63.08;0.5309;0.663;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;A8FF70AFFFEFF;0;0;489181"/-->
+			<BodyProperties
+				version="4"
+				age="38.89"
+				weight="0.2"
+				build="0.2"
+				key="00000004400000010100000000037000000700100000000000000000000000000003300503000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="43.08"
+				weight="0.5309"
+				build="0.663"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000A8FF70AFFFEFF000000000000000000000000000000000000000001689181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="100" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_hatchet_axe" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battania_civil_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battania_civil_cloak" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_wrapped_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="30" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_heavy_ranged_battania_hero"
+		default_group="Infantry"
+		level="20"
+		name="Noble Guards"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="38.89;0.2;0.2;440000001;100000000037000;7001000000000;0;3300503000000;0;0;300000" max_value="63.08;0.5309;0.663;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;A8FF70AFFFEFF;0;0;489181"/-->
+			<BodyProperties
+				version="4"
+				age="38.89"
+				weight="0.2"
+				build="0.2"
+				key="00000004400000010100000000037000000700100000000000000000000000000003300503000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="43.08"
+				weight="0.5309"
+				build="0.663"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000A8FF70AFFFEFF000000000000000000000000000000000000000001689181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="50" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="100" />
+			<skill
+				id="Bow"
+				value="100" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_long_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_two_handed_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_helmet_with_faceguard" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_woodland_chainmail" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_guarded_armwraps" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_fur_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="35" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_light_cavalry_battania_hero"
+		default_group="Cavalry"
+		level="20"
+		name="Celtic Cavalry"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="22;0.1333;0;440000001;100000000027000;7001000000000;0;200306000000;0;0;300000" max_value="33.86;0.5333;0.3333;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;58FF405FFFEFF;0;0;389181"/-->
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.1333"
+				build="0"
+				key="00000004400000010100000000027000000700100000000000000000000000000000200306000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="33.86"
+				weight="0.5333"
+				build="0.3333"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF00058FF405FFFEFF000000000000000000000000000000000000000001189181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="150" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="150" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_spear" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_cavalry_sword" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_highland_riders_shield" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_fur_boots" />
+				<equipment
+					slot="Horse"
+					id="Item.mp_battania_pony" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.mp_battania_horse_harness" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="75" />
+	</NPCCharacter>
+	  <!-- Troops -->
+	<!--Battanian Troops-->
+	<NPCCharacter
+		id="mp_light_infantry_battania_troop"
+		default_group="Infantry"
+		level="10"
+		name="Sword Masters"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="22;0.1333;0;440000001;100000000027000;7001000000000;0;200306000000;0;0;300000" max_value="33.86;0.5333;0.3333;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;58FF405FFFEFF;0;0;389181"/-->
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.1333"
+				build="0"
+				key="00000004400000010100000000027000000700100000000000000000000000000000200306000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="33.86"
+				weight="0.5333"
+				build="0.3333"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF00058FF405FFFEFF000000000000000000000000000000000000000001189181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="25" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_armwraps" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_highland_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_guarded_armwraps" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_woodland_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_light_armor_c" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="25" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_heavy_infantry_battania_troop"
+		default_group="Infantry"
+		level="25"
+		name="Sword Followers"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="38.89;0.2;0.2;440000001;100000000037000;7001000000000;0;3300503000000;0;0;300000" max_value="63.08;0.5309;0.663;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;A8FF70AFFFEFF;0;0;489181"/-->
+			<BodyProperties
+				version="4"
+				age="38.89"
+				weight="0.2"
+				build="0.2"
+				key="00000004400000010100000000037000000700100000000000000000000000000003300503000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="45.08"
+				weight="0.5309"
+				build="0.663"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000A8FF70AFFFEFF000000000000000000000000000000000000000001689181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="60" />
+			<skill
+				id="OneHanded"
+				value="200" />
+			<skill
+				id="TwoHanded"
+				value="150" />
+			<skill
+				id="Polearm"
+				value="200" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_heavy_oval_shield" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battanian_crowned_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.mp_ranger_mail" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_woodland_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_heavy_oval_shield" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battanian_plated_noble_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.mp_kilt_over_plated_leather" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_highland_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_sword" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_heavy_oval_shield" />
+				<equipment
+					slot="Head"
+					id="Item.mp_ridged_northernhelm" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battanian_chainmail_armor_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_leather_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_leather_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="40" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_shock_infantry_battania_troop"
+		default_group="Infantry"
+		level="25"
+		name="Berserkers"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="31;0.266;0.5247;141000340;100000000047000;7001000000000;0;8400408000000;0;0;380000" max_value="63.19;0.466;0.9994;BFC0B4D3C34D4;FFFFFAFFAAA7FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;F7FF70FFFFEFF;0;0;589181"/-->
+			<BodyProperties
+				version="4"
+				age="21"
+				weight="0.266"
+				build="0.5247"
+				key="00000001410003400100000000047000000700100000000000000000000000000008400408000000000000000000000000000000000000000000000001180000" />
+			<BodyPropertiesMax
+				version="4"
+				age="40.19"
+				weight="0.466"
+				build="0.9994"
+				key="000BFC0B4D3C34D4FFFFFAFFAAA7FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000F7FF70FFFFEFF000000000000000000000000000000000000000001B89181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="200" />
+			<skill
+				id="TwoHanded"
+				value="250" />
+			<skill
+				id="Polearm"
+				value="200" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_falx" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_light_armor_d" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_woodland_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_falx" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battanian_savage_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_guarded_armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_falx" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_light_armor_d" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_highland_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_armwraps" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battania_scarf_a" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="30" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_skirmisher_battania_troop"
+		default_group="Infantry"
+		level="10"
+		name="Celtic Skirmishers"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="22;0.1333;0;440000001;100000000027000;7001000000000;0;200306000000;0;0;300000" max_value="33.86;0.5333;0.3333;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;58FF405FFFEFF;0;0;389181"/-->
+			<BodyProperties
+				version="4"
+				age="23"
+				weight="0.1333"
+				build="0"
+				key="00000004400000010100000000027000000700100000000000000000000000000000200306000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="33.86"
+				weight="0.5333"
+				build="0.3333"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF00058FF405FFFEFF000000000000000000000000000000000000000001189181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="50" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="20" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="250" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_javelin_captain" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_large_shield_b" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_plumed_helmet" />
+				<equipment
+					slot="Body"
+					id="Item.mp_hauberk" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_highland_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battania_shoulder_strap" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_javelin_captain" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_large_shield_b" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battania_earmuff_helmet_c_cpr" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battanian_chainmail_armor_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_woodland_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_javelin_captain" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_large_shield_b" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_short_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battania_earmuff_helmet_d" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battanian_chainmail_armor_b" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_wrapped_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battania_shoulder_strap" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="35" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_light_ranged_battania_troop"
+		default_group="Ranged"
+		level="5"
+		name="Celtic Huntsman"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="38.89;0.2;0.2;440000001;100000000037000;7001000000000;0;3300503000000;0;0;300000" max_value="63.08;0.5309;0.663;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;A8FF70AFFFEFF;0;0;489181"/-->
+			<BodyProperties
+				version="4"
+				age="38.89"
+				weight="0.2"
+				build="0.2"
+				key="00000004400000010100000000037000000700100000000000000000000000000003300503000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="45.08"
+				weight="0.5309"
+				build="0.663"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000A8FF70AFFFEFF000000000000000000000000000000000000000001689181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="50" />
+			<skill
+				id="OneHanded"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="50" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="100" />
+			<skill
+				id="Bow"
+				value="250" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_hatchet_axe" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battania_civil_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battania_civil_cloak" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_hatchet_axe" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_b" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_armwraps" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_leather_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battania_cloak_furr" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_mountain_hunting_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_hatchet_axe" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Cape"
+					id="Item.mp_battanian_leather_shoulder_a" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_light_armor_c" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_guarded_armwraps" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.mp_thinhide_coif" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="30" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_heavy_ranged_battania_troop"
+		default_group="Infantry"
+		level="20"
+		name="Noble Guards"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="38.89;0.2;0.2;440000001;100000000037000;7001000000000;0;3300503000000;0;0;300000" max_value="63.08;0.5309;0.663;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;A8FF70AFFFEFF;0;0;489181"/-->
+			<BodyProperties
+				version="4"
+				age="38.89"
+				weight="0.2"
+				build="0.2"
+				key="00000004400000010100000000037000000700100000000000000000000000000003300503000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="45.08"
+				weight="0.5309"
+				build="0.663"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF000A8FF70AFFFEFF000000000000000000000000000000000000000001689181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="75" />
+			<skill
+				id="OneHanded"
+				value="100" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="50" />
+			<skill
+				id="Crossbow"
+				value="100" />
+			<skill
+				id="Bow"
+				value="250" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_long_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_two_handed_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_helmet_with_faceguard" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_woodland_chainmail" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_highland_gloves" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_fur_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_long_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_two_handed_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_battania_earmuff_helmet_d" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battanian_chainmail_armor_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_guarded_armwraps" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_highland_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_long_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_arrows_bodkin" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_battania_two_handed_sword" />
+				<equipment
+					slot="Head"
+					id="Item.mp_helmet_with_faceguard" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battanian_chainmail_armor_d" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_guarded_armwraps" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_fur_boots" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="35" />
+	</NPCCharacter>
+	<NPCCharacter
+		id="mp_light_cavalry_battania_troop"
+		default_group="Cavalry"
+		level="20"
+		name="Celtic Cavalry"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<!--face_key value="22;0.1333;0;440000001;100000000027000;7001000000000;0;200306000000;0;0;300000" max_value="33.86;0.5333;0.3333;BFC0B4B3C300F;FFFFFAFFAAA8FFFF;FFBFFFF77FF7FFFF;FFFFFFFFFF6BFFFF;58FF405FFFEFF;0;0;389181"/-->
+			<BodyProperties
+				version="4"
+				age="22"
+				weight="0.1333"
+				build="0"
+				key="00000004400000010100000000027000000700100000000000000000000000000000200306000000000000000000000000000000000000000000000000C80000" />
+			<BodyPropertiesMax
+				version="4"
+				age="33.86"
+				weight="0.5333"
+				build="0.3333"
+				key="000BFC0B4B3C300FFFFFFAFFAAA8FFFFFFBFFFF77FF7FFFFFFFFFFFFFF6BFFFF00058FF405FFFEFF000000000000000000000000000000000000000001189181" />
+		</face>
+		<skills>
+			<skill
+				id="Riding"
+				value="200" />
+			<skill
+				id="OneHanded"
+				value="150" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+			<skill
+				id="Polearm"
+				value="200" />
+			<skill
+				id="Crossbow"
+				value="50" />
+			<skill
+				id="Bow"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="100" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_spear" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_cavalry_sword" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_highland_riders_shield" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_rough_tied_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_ragged_armwraps" />
+				<equipment
+					slot="Horse"
+					id="Item.mp_battania_pony" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.mp_battania_horse_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_spear" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_cavalry_sword" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_highland_riders_shield" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_fur_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_ragged_armwraps" />
+				<equipment
+					slot="Horse"
+					id="Item.mp_battania_pony" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.mp_bandit_saddle_highland" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.mp_battania_long_spear" />
+				<equipment
+					slot="Item1"
+					id="Item.mp_battania_cavalry_sword" />
+				<equipment
+					slot="Item2"
+					id="Item.mp_highland_riders_shield" />
+				<equipment
+					slot="Body"
+					id="Item.mp_battania_light_armor_c" />
+				<equipment
+					slot="Leg"
+					id="Item.mp_battania_fur_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.mp_highland_gloves" />
+				<equipment
+					slot="Horse"
+					id="Item.mp_battania_pony" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.mp_bandit_saddle_highland" />
+			</EquipmentRoster>
+		</Equipments>
+		<Resistances
+			dismount="75" />
+	</NPCCharacter>
+</MPCharacters>

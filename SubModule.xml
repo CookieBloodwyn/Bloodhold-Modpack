@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Baynor Modpack" />
+	<Id value="Baynor_Modpack" />
+	<Version value="v1.2.7" />
+	<DefaultModule value="false" />
+	<ModuleCategory value="Multiplayer" />
+	<Official value="false" />
+	<SubModules>
+	</SubModules>		
+		<Xmls>     
+		<XmlNode>                
+			<XmlName id="MPCharacters" path="mpcharacters"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="MPClassDivisions" path="mpclassdivisions"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="BasicCultures" path="mpcultures"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="mpitems"/>
+				<GameType value = "MultiplayerGame"/>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="GameText" path="multiplayer_strings"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="weapon_descriptions"/>
+		</XmlNode>		
+		<XmlNode>                
+			<XmlName id="CraftingPieces" path="crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "MultiplayerGame"/>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode> 
+		<XmlNode>                
+			<XmlName id="CraftingTemplates" path="crafting_templates"/>
+		</XmlNode> 
+		</Xmls>
+	</Module>
