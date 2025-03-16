@@ -1,0 +1,184 @@
+<ClanBanners>
+    <Item id="hrbh_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="hrbh_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="jom_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="jom_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="hon_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="hon_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="om_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="om_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="iodr_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="iodr_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="vk_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="vk_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="smc_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="smc_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="imc_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="imc_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+    <Item id="hh_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="hh_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+        <ItemComponent>
+            <Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+                <WeaponFlags MeleeWeapon="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+    </Item>
+	<Item id="soel_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="soel_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+	</Item>
+	<Item id="tpoc_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="tpoc_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+	</Item>
+	<Item id="lgix_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="lgix_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+	</Item>
+	<Item id="hca_banner" name="{=*}Clan Banner" is_merchandise="true"
+        body_name="bo_mace_a" recalculate_body="false" mesh="hca_banner"
+        culture="Culture.empire" value="4" weight="0.2" Type="OneHandedWeapon"
+        item_holsters="throwing_stone_2">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedAxe" weapon_balance="100" thrust_speed="78"
+                speed_rating="97" missile_speed="0" weapon_length="65" swing_damage="6"
+                swing_damage_type="Blunt" item_usage="torch" physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags DropOnWeaponChange="false" ForceAttachOffHandPrimaryItemBone="true"
+            HeldInOffHand="true" HasToBeHeldUp="true" />
+	</Item>
+</ClanBanners>

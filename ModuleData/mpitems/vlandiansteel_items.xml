@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="utf-8"?>			 
+<Items>
+<!-- ARMOR SETS -->
+<!-- Blackened Plate Armor -->
+	<Item id="vs_blackened_bascinet" name="{=vs_blackened_bascinet}Blackened Bascinet" subtype="head_armor" mesh="vs_blackened_bascinet" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />	
+	</Item>
+	
+	<Item id="vs_blackened_bascinet_with_open_visor" name="{=vs_blackened_bascinet_with_open_visor}Blackened Bascinet with Open Visor" subtype="head_armor" mesh="vs_blackened_bascinet_with_open_visor" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />	
+	</Item>
+	
+	<Item id="vs_engraved_plate_armor2" name="{=vs_engraved_plate_armor2}Blackened Plate Armor" mesh="vs_engraved_plate_armor2" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_blackened_plate_pauldrons" name="{=vs_blackened_plate_pauldrons}Blackened Plate Pauldrons" mesh="vs_blackened_plate_pauldrons" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_blackened_plate_bracers" name="{=vs_blackened_plate_bracers}Blackened Plate Bracers" mesh="vs_blackened_plate_bracers" is_merchandise="true" culture="Culture.vlandia" weight="1.9" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="20" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+	
+	<Item id="vs_blackened_greaves" name="{=vs_blackened_greaves}Blackened Plate Greaves" mesh="vs_blackened_greaves" is_merchandise="true" culture="Culture.vlandia" weight="3" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>	
+
+<!-- Engraved Plate Armor -->
+	<Item id="vs_engraved_bascinet" name="{=vs_engraved_bascinet}Engraved Bascinet" subtype="head_armor" mesh="vs_engraved_bascinet" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_engraved_bascinet_with_open_visor" name="{=vs_engraved_bascinet_with_open_visor}Engraved Bascinet with Open Visor" subtype="head_armor" mesh="vs_engraved_bascinet_with_open_visor" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_engraved_sallet" name="{=vs_engraved_sallet}Engraved Sallet" subtype="head_armor" mesh="vs_engraved_sallet" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_engraved_sallet_open_visor" name="{=vs_engraved_sallet_open_visor}Engraved Sallet with Open Visor" subtype="head_armor" mesh="vs_engraved_sallet_open_visor" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_engraved_plate_armor1" name="{=vs_engraved_plate_armor1}Engraved Plate Armor" mesh="vs_engraved_plate_armor1" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_engraved_plate_pauldrons" name="{=vs_engraved_plate_pauldrons}Engraved Plate Pauldrons" mesh="vs_engraved_plate_pauldrons" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_engraved_plate_shoulders" name="{=vs_engraved_plate_shoulders}Engraved Plate Shoulders" mesh="vs_engraved_plate_shoulders" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="6" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Plate Armor with Silver Ornaments -->
+	<Item id="vs_bascinet_with_open_visor2" name="{=vs_bascinet_with_open_visor2}Bascinet with Open Visor and Silver Ornaments" subtype="head_armor" mesh="vs_bascinet_with_open_visor2" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_bascinet_with_visor2" name="{=vs_bascinet_with_visor2}Visored Bascinet with Silver Ornaments" subtype="head_armor" mesh="vs_bascinet_with_visor2" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_ornate_plate_shoulder1" name="{=vs_ornate_plate_shoulder1}Plate Shoulders with Silver Ornaments" mesh="vs_ornate_plate_shoulder1" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="6" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_ornate_plate_shoulder_with_cape1" name="{=vs_ornate_plate_shoulder_with_cape1}Plate Shoulders with Cape and Silver Ornaments" mesh="vs_ornate_plate_shoulder_with_cape1" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_armor_with_skirt1" name="{=vs_ornate_plate_armor_with_skirt1}Plate Armor with Skirt and Silver Ornaments" mesh="vs_ornate_plate_armor_with_skirt1" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_armor1" name="{=vs_ornate_plate_armor1}Plate Armor with Silver Ornaments" mesh="vs_ornate_plate_armor1" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_gauntlets1" name="{=vs_ornate_plate_gauntlets1}Plate Gauntlets with Silver Ornaments" mesh="vs_ornate_plate_gauntlets1" is_merchandise="true" culture="Culture.vlandia" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="22" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+	
+	<Item id="vs_ornate_plate_boots1" name="{=vs_ornate_plate_boots1}Plate Solerets with Silver Ornaments" mesh="vs_ornate_plate_boots1" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Plate Armor with Golden Ornaments -->
+	<Item id="vs_bascinet_with_open_visor3" name="{=vs_bascinet_with_open_visor3}Bascinet with Open Visor and Golden Ornaments" subtype="head_armor" mesh="vs_bascinet_with_open_visor3" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_bascinet_with_visor3" name="{=vs_bascinet_with_visor3}Visored Bascinet with Golden Ornaments" subtype="head_armor" mesh="vs_bascinet_with_visor3" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_ornate_plate_shoulder2" name="{=vs_ornate_plate_shoulder2}Plate Shoulders with Golden Ornaments" mesh="vs_ornate_plate_shoulder2" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="6" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_ornate_plate_shoulder_with_cape2" name="{=vs_ornate_plate_shoulder_with_cape2}Plate Shoulders with Cape and Golden Ornaments" mesh="vs_ornate_plate_shoulder_with_cape2" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_armor_with_skirt2" name="{=vs_ornate_plate_armor_with_skirt2}Plate Armor with Skirt and Golden Ornaments" mesh="vs_ornate_plate_armor_with_skirt2" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_armor2" name="{=vs_ornate_plate_armor2}Plate Armor with Golden Ornaments" mesh="vs_ornate_plate_armor2" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_gauntlets2" name="{=vs_ornate_plate_gauntlets2}Plate Gauntlets with Golden Ornaments" mesh="vs_ornate_plate_gauntlets2" is_merchandise="true" culture="Culture.vlandia" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="22" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+	
+	<Item id="vs_ornate_plate_boots2" name="{=vs_ornate_plate_boots2}Plate Solerets with Golden Ornaments" mesh="vs_ornate_plate_boots2" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Blackened Plate Armor with Golden Ornaments -->
+	<Item id="vs_bascinet_with_open_visor4" name="{=vs_bascinet_with_open_visor4}Blackened Bascinet with Open Visor and Golden Ornaments" subtype="head_armor" mesh="vs_bascinet_with_open_visor4" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_bascinet_with_visor4" name="{=vs_bascinet_with_visor4}Blackened Visored Bascinet with Golden Ornaments" subtype="head_armor" mesh="vs_bascinet_with_visor4" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_ornate_plate_shoulder3" name="{=vs_ornate_plate_shoulder3}Blackened Plate Shoulders with Golden Ornaments" mesh="vs_ornate_plate_shoulder3" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="6" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_ornate_plate_shoulder_with_cape3" name="{=vs_ornate_plate_shoulder_with_cape3}Blackened Plate Shoulders with Cape and Golden Ornaments" mesh="vs_ornate_plate_shoulder_with_cape3" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_armor_with_skirt3" name="{=vs_ornate_plate_armor_with_skirt3}Blackened Plate Armor with Skirt and Golden Ornaments" mesh="vs_ornate_plate_armor_with_skirt3" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_armor3" name="{=vs_ornate_plate_armor3}Blackened Plate Armor with Golden Ornaments" mesh="vs_ornate_plate_armor3" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ornate_plate_gauntlets3" name="{=vs_ornate_plate_gauntlets3}Blackened Plate Gauntlets with Golden Ornaments" mesh="vs_ornate_plate_gauntlets3" is_merchandise="true" culture="Culture.vlandia" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="22" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+	
+	<Item id="vs_ornate_plate_boots3" name="{=vs_ornate_plate_boots3}Blackened Plate Solerets with Golden Ornaments" mesh="vs_ornate_plate_boots3" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>	
+	
+<!-- Sloppy Plate Armor -->
+	<Item id="vs_sloppy_bascinet_with_open_dog_face_visor" name="{=vs_sloppy_bascinet_with_open_dog_face_visor}Sloppy Bascinet with Open Dog Face Visor" subtype="head_armor" mesh="vs_sloppy_bascinet_with_open_dog_face_visor" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="35" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+	
+	<Item id="vs_sloppy_bascinet_with_dog_face_visor" name="{=vs_sloppy_bascinet_with_dog_face_visor}Sloppy Bascinet with Dog Face Visor" subtype="head_armor" mesh="vs_sloppy_bascinet_with_dog_face_visor" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+		
+	<Item id="vs_sloppy_plate_shoulder_with_cape" name="{=vs_sloppy_plate_shoulder_with_cape}Sloppy Plate Shoulders with Torn Cape" mesh="vs_sloppy_plate_shoulder_with_cape" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15" arm_armor="5" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_sloppy_plate_armor" name="{=vs_sloppy_plate_armor}Sloppy Plate Armor" mesh="vs_sloppy_plate_armor" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="17" arm_armor="17" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<Item id="vs_sloppy_plate_gauntlets" name="{=vs_sloppy_plate_gauntlets}Sloppy Plate Gauntlets" mesh="vs_sloppy_plate_gauntlets" is_merchandise="true" culture="Culture.vlandia" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="19" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+	
+	<Item id="vs_sloppy_plateboots" name="{=vs_sloppy_plateboots}Sloppy Plate Solerets" mesh="vs_sloppy_plateboots" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="17" covers_legs="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>	
+
+<!-- BODY -->
+<!-- Merchant Leather Windcheater -->
+	<Item id="vs_merchant_windcheater" name="{=vs_merchant_windcheater}Merchant Leather Windcheater" mesh="vs_merchant_windcheater" is_merchandise="true" culture="Culture.vlandia" weight="1.6" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="8" arm_armor="3" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+<!-- Long Leather Coat -->
+	<Item id="vs_long_leather_coat" name="{=vs_long_leather_coat}Long Leather Coat" mesh="vs_long_leather_coat" is_merchandise="true" culture="Culture.vlandia" weight="2.6" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="10" arm_armor="5" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+<!-- Reinforced Leather Armor -->
+	<Item id="vs_mercenary_brigandine" name="{=vs_mercenary_brigandine}Reinforced Leather Armor" subtype="body_armor" mesh="vs_mercenary_brigandine" culture="Culture.vlandia" weight="22.00" difficulty="0" appearance="1.6" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="19" arm_armor="19" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Studded Broigne -->
+	<Item id="vs_broigne" name="{=vs_broigne}Studded Broigne" mesh="vs_broigne" culture="Culture.vlandia" weight="10.6" appearance="1.6" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="10" arm_armor="8" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>	
+	
+<!-- Elegant Tunic -->  
+	<Item id="vs_elegant_tunic1" name="{=vs_elegant_tunic1}Elegant Tunic" mesh="vs_elegant_tunic1" is_merchandise="true" culture="Culture.vlandia" weight="0.4" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="3" arm_armor="2" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+	<Item id="vs_elegant_tunic2" name="{=vs_elegant_tunic2}Elegant Tunic" mesh="vs_elegant_tunic2" is_merchandise="true" culture="Culture.vlandia" weight="0.4" appearance="2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="3" arm_armor="2" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+<!-- LEATHER CUIRASS -->
+<!-- Leather Cuirass over Tunic -->
+	<Item id="vs_cuirassa" name="{=vs_cuirassa}Leather Cuirass over Elegant Tunic" mesh="vs_cuirassa" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="11" arm_armor="11" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_cuirassb" name="{=vs_cuirassb}Leather Cuirass over Bicolor Tunic" mesh="vs_cuirassc" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="11" arm_armor="11" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_cuirassc" name="{=vs_cuirassc}Leather Cuirass over Plain Tunic" mesh="vs_cuirassb" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="11" arm_armor="11" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Leather Cuirass over Hauberk -->	
+	<Item id="vs_cuirass_over_hauberk" name="{=vs_cuirass_over_hauberk}Leather Cuirass over Hauberk" mesh="vs_cuirass_over_hauberk" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="11" arm_armor="13" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+<!-- PLATES ARMORS -->
+<!-- Steel Cuirass over Gambeson -->
+	<Item id="vs_cuirass_over_gambesona" name="{=vs_cuirass_over_gambesona}Steel Cuirass over Gambeson of the Lys" mesh="vs_cuirass_over_gambesona" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_cuirass_over_gambesonb" name="{=vs_cuirass_over_gambesonb}Steel Cuirass over Striped Gambeson" mesh="vs_cuirass_over_gambesonb" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_cuirass_over_gambesonc" name="{=vs_cuirass_over_gambesonc}Steel Cuirass over Gambeson of the Gryphon" mesh="vs_cuirass_over_gambesonc" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Leather Cuirass with Mail -->
+	<Item id="vs_leather_cuirass_with_mailA" name="{=vs_leather_cuirass_with_mailA}Leather Cuirass over Mail" mesh="swadian_cuirassa" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_mailB" name="{=vs_leather_cuirass_with_mailB}Striped Leather Cuirass over Mail" mesh="swadian_cuirassb" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_mailC" name="{=vs_leather_cuirass_with_mailC}Half Leather Cuirass over Mail" mesh="swadian_cuirassc" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_mailD" name="{=vs_leather_cuirass_with_mailD}Lys Leather Cuirass over Mail" mesh="swadian_cuirassd" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_mailE" name="{=vs_leather_cuirass_with_mailE}Lion Leather Cuirass over Mail" mesh="swadian_cuirasse" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_mailF" name="{=vs_leather_cuirass_with_mailF}Half Striped Leather Cuirass over Mail" mesh="swadian_cuirassf" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Leather Cuirass with Armguards -->
+	<Item id="vs_leather_cuirass_with_armguardsA" name="{=vs_leather_cuirass_with_armguardsA}Leather Cuirass with Armguards" mesh="swadian_leather_plate_with_armguardsA" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_armguardsB" name="{=vs_leather_cuirass_with_armguardsB}Striped Leather Cuirass with Armguards" mesh="swadian_leather_plate_with_armguards" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_armguardsC" name="{=vs_leather_cuirass_with_armguardsC}Half Leather Cuirass with Armguards" mesh="swadian_leather_plate_with_armguardsC" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_armguardsD" name="{=vs_leather_cuirass_with_armguardsD}Lys Leather Cuirass with Armguards" mesh="swadian_leather_plate_with_armguardsD" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_armguardsE" name="{=vs_leather_cuirass_with_armguardsE}Lion Leather Cuirass with Armguards" mesh="swadian_leather_plate_with_armguardsE" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_armguardsF" name="{=vs_leather_cuirass_with_armguardsF}Half Striped Leather Cuirass with Armguards" mesh="swadian_leather_plate_with_armguardsF" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Leather Cuirass with Pauldrons -->
+	<Item id="vs_leather_cuirass_with_pauldronsA" name="{=vs_leather_cuirass_with_pauldronsA}Leather Cuirass with Pauldrons" mesh="swadian_leather_plate_armorA" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_pauldronsB" name="{=vs_leather_cuirass_with_pauldronsB}Striped Leather Cuirass with Pauldrons" mesh="swadian_leather_plate_armor" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_pauldronsC" name="{=vs_leather_cuirass_with_pauldronsC}Half Leather Cuirass with Pauldrons" mesh="swadian_leather_plate_armorC" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_pauldronsD" name="{=vs_leather_cuirass_with_pauldronsD}Lys Leather Cuirass with Pauldrons" mesh="swadian_leather_plate_armorD" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_pauldronsE" name="{=vs_leather_cuirass_with_pauldronsE}Lion Leather Cuirass with Pauldrons" mesh="swadian_leather_plate_armorE" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_with_pauldronsF" name="{=vs_leather_cuirass_with_pauldronsF}Half Striped Leather Cuirass with Pauldrons" mesh="swadian_leather_plate_armorF" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_lys_cuirass_with_skirt" name="{=vs_lys_cuirass_with_skirt}Lys Leather Cuirass with Skirt" mesh="vs_lys_cuirass_with_skirt" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Plate Armor with Mail -->
+	<Item id="vs_plate_armor_with_mail" name="{=vs_plate_armor_with_mail}Striped Plate Armor over Mail" mesh="swadian_striped_cuirass" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="1" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_plate_armor_with_mail2" name="{=vs_plate_armor_with_mail2}Plate Armor over Mail" mesh="swadian_cuirass" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="1" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Plate Armor with Armguards -->
+    <Item id="vs_plate_armor_with_armguards" name="{=vs_plate_armor_with_armguards}Plate Armor with Armguards" mesh="swadian_plate_with_armguards" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_plate_armor_with_armguardsb" name="{=vs_plate_armor_with_armguardsb}Striped Plate Armor with Armguards" mesh="swadian_plate_with_armguardsb" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Plate Armor with Pauldrons -->
+    <Item id="vs_plate_armor_with_pauldrons" name="{=vs_plate_armor_with_pauldrons}Plate Armor with Pauldrons" mesh="swadian_plate_armor" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_striped_plate_armor_with_pauldrons" name="{=vs_striped_plate_armor_with_pauldrons}Striped Plate Armor with Pauldrons" mesh="swadian_striped_plate_armor" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_tabbartplate" name="{=vs_tabbartplate}Plate Armor with Striped Skirt" mesh="sa_surcoatplate" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Coats of Plates -->
+	<Item id="vs_coat_of_plates1" name="{=vs_coat_of_plates1}Plain Coat of Plates" mesh="coat_of_plates1_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+  
+	<Item id="vs_coat_of_plates2" name="{=vs_coat_of_plates2}Royal Coat of Plates" mesh="coat_of_plates2_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+  
+	<Item id="vs_coat_of_plates3" name="{=vs_coat_of_plates3}Lys Coat of Plates" mesh="coat_of_plates3_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+  
+	<Item id="vs_coat_of_plates4" name="{=vs_coat_of_plates4}Checkered Coat of Plates" mesh="coat_of_plates4_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+  
+	<Item id="vs_coat_of_plates5" name="{=vs_coat_of_plates5}Crusader Coat of Plates" mesh="coat_of_plates5_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_coat_of_plates7" name="{=vs_coat_of_plates7}Lion Coat of Plates" mesh="vs_coat_of_plates7" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>	
+	
+	<Item id="vs_coat_of_plates6" name="{=vs_coat_of_plates6}Lion Coat of Plates With Trimmed Pauldrons" mesh="vs_coat_of_plates6" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_coat_of_plates6_c" name="{=vs_coat_of_plates6_c}Checkered Coat of Plates With Trimmed Pauldrons" mesh="coat_of_plates6_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="22" covers_body="true" modifier_group="chain" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+    <Item id="vs_coat_of_plates8_c" name="{=vs_coat_of_plates8_c}Lys Coat of Plates With Trimmed Pauldrons" mesh="coat_of_plates8_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="22" covers_body="true" modifier_group="chain" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+    <Item id="vs_coat_of_plates10_c" name="{=vs_coat_of_plates10_c}Checkered Coat of Plates With Pauldrons" mesh="coat_of_plates10_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" arm_armor="22" covers_body="true" modifier_group="chain" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_coat_of_plates" name="{=vs_leather_coat_of_plates}Leather Coat of Plates" mesh="vs_leather_coat_of_plates" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="38" leg_armor="18" arm_armor="18" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Tabards -->
+	<Item id="vs_tabard1" name="{=vs_tabard1}Diamond Tabard" mesh="mail_with_tabbard1" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+  
+	<Item id="vs_tabard2" name="{=vs_tabard2}Quarter Tabard" mesh="mail_with_tabbard2" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+  
+	<Item id="vs_tabard3" name="{=vs_tabard3}Striped Tabard" mesh="mail_with_tabbard3" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+  
+	<Item id="vs_tabard4" name="{=vs_tabard4}Checkered Tabard" mesh="mail_with_tabbard4" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_tabard_with_platea" name="{=vs_tabard_with_platea}Gryphon's Tabard with Pauldrons" mesh="vs_tabard_with_platea" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_tabard_with_plateb" name="{=vs_tabard_with_plateb}Striped Tabard with Pauldrons" mesh="vs_tabard_with_plateb" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_tabard_over_coat_of_plate1" name="{=vs_tabard_over_coat_of_plate1}Checkered Tabbard over Coat of Plate" mesh="coat1" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="13" arm_armor="13" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item> 
+    
+    <Item id="vs_tabard_over_coat_of_plate2" name="{=vs_tabard_over_coat_of_plate2}Plain Tabbard over Coat of Plate" mesh="coat2" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="13" arm_armor="13" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item> 
+        
+	<Item id="vs_tabard_over_coat_of_plate3" name="{=vs_tabard_over_coat_of_plate3}Striped Tabbard over Coat of Plate" mesh="coat3" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="13" arm_armor="13" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>	
+	
+<!-- Aketon -->
+	<Item id="vs_aketona" name="{=vs_aketona}Half Aketon" mesh="vs_aketona" culture="Culture.vlandia" weight="2" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="9" arm_armor="9" has_gender_variations="false" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_aketonb" name="{=vs_aketonb}Stripped Aketon" mesh="vs_aketonb" culture="Culture.vlandia" weight="2" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="9" arm_armor="9" has_gender_variations="false" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_aketonc" name="{=vs_aketonc}Lion Aketon" mesh="vs_aketonc" culture="Culture.vlandia" weight="2" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="9" arm_armor="9" has_gender_variations="false" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true" />
+	</Item>
+
+<!-- Long Pourpoint -->
+	<Item id="vs_long_pourpointa" name="{=vs_long_pourpointa}Long Pourpoint of the Lys" mesh="vs_long_pourpointa" culture="Culture.vlandia" weight="3.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="3" arm_armor="3" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_long_pourpointb" name="{=vs_long_pourpointb}Long Striped Pourpoint" mesh="vs_long_pourpointb" culture="Culture.vlandia" weight="3.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="3" arm_armor="3" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_long_pourpointc" name="{=vs_long_pourpointc}Long Pourpoint of the Gryphon" mesh="vs_long_pourpointc" culture="Culture.vlandia" weight="3.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="13" leg_armor="3" arm_armor="3" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Guard's Gambeson -->	
+	<Item id="vs_guard_gambesona" name="{=vs_guard_gambesona}Guard's Gambeson" mesh="vs_guard_gambesona" culture="Culture.vlandia" is_merchandise="true" weight="8.3" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="4" arm_armor="4" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_guard_gambesonb" name="{=vs_guard_gambesonb}Guard's Gambeson" mesh="vs_guard_gambesonb" culture="Culture.vlandia" is_merchandise="true" weight="8.3" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="11" leg_armor="4" arm_armor="4" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Guard's Cuirass over Gambeson -->	
+	<Item id="vs_leather_cuirass_over_gambesona" name="{=vs_leather_cuirass_over_gambesona}Leather Cuirass over Guard's Gambeson" mesh="vs_leather_cuirass_over_gambesona" culture="Culture.vlandia" is_merchandise="true" weight="8.3" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15" leg_armor="4" arm_armor="4" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_leather_cuirass_over_gambesonb" name="{=vs_leather_cuirass_over_gambesonb}Leather Cuirass over Guard's Gambeson" mesh="vs_leather_cuirass_over_gambesonb" culture="Culture.vlandia" is_merchandise="true" weight="8.3" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15" leg_armor="4" arm_armor="4" covers_body="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>	
+	
+<!-- Leather Scale Armor -->
+	<Item id="vs_leather_scale_cuirass" name="{=vs_leather_scale_cuirass}Leather Scale Cuirass" mesh="vs_leather_scale_cuirass" culture="Culture.vlandia" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="8" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+
+	<Item id="vs_leather_scales_coat" name="{=vs_leather_scales_coat}Leather Scale Armor" mesh="vs_leather_scales_coat" culture="Culture.vlandia" weight="3.1" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18" leg_armor="10" arm_armor="8" covers_body="true" modifier_group="leather" material_type="Leather" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+	<Item id="vs_steel_scales_coat" name="{=vs_steel_scales_coat}Steel Scale Armor" mesh="vs_steel_scales_coat" culture="Culture.vlandia" is_merchandise="true" weight="8.6" appearance="0.7" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="26" leg_armor="10" arm_armor="12" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+<!-- Reinforced Leather Tabard -->	
+	<Item id="vs_reinforced_leather_tabarda" name="{=vs_reinforced_leather_tabarda}Reinforced Brown Leather Tabard" mesh="vs_reinforced_leather_tabarda" culture="Culture.vlandia" is_merchandise="true" weight="8.4" appearance="0.7" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="17" leg_armor="11" arm_armor="9" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+	</Item>
+	
+	<Item id="vs_reinforced_leather_tabardb" name="{=vs_reinforced_leather_tabardb}Reinforced Black Leather Tabard" mesh="vs_reinforced_leather_tabardb" culture="Culture.vlandia" is_merchandise="true" weight="8.4" appearance="0.7" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="17" leg_armor="11" arm_armor="9" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+	</Item>
+	
+<!-- Decorated Leather Tabard -->	
+	<Item id="vs_decorated_leather_tabard" name="{=vs_decorated_leather_tabard}Decorated Leather Tabard" subtype="body_armor" mesh="vs_decorated_leather_tabard" culture="Culture.vlandia" is_merchandise="true" weight="8.7" difficulty="0" appearance="1.2" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Gambeson over Mail -->	
+	<Item id="vs_gambeson_over_maila" name="{=vs_gambeson_over_maila}Gambeson over Mail with Rose Motif" mesh="vs_gambeson_over_maila" culture="Culture.vlandia" is_merchandise="true" subtype="body_armor" weight="9.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="31" leg_armor="6" arm_armor="8" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+	<Item id="vs_gambeson_over_mailb" name="{=vs_gambeson_over_mailb}Gambeson over Mail with Hunting Motif" mesh="vs_gambeson_over_mailb" culture="Culture.vlandia" is_merchandise="true" subtype="body_armor" weight="9.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="31" leg_armor="6" arm_armor="8" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+	<Item id="vs_gambeson_over_mailc" name="{=vs_gambeson_over_mailc}Gambeson over Mail with Flower Motif" mesh="vs_gambeson_over_mailc" culture="Culture.vlandia" is_merchandise="true" subtype="body_armor" weight="9.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="31" leg_armor="6" arm_armor="8" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+	<Item id="vs_gambeson_over_maild" name="{=vs_gambeson_over_maild}Gambeson over Mail with Leaves Motif" mesh="vs_gambeson_over_maild" culture="Culture.vlandia" is_merchandise="true" subtype="body_armor" weight="9.2" difficulty="0" appearance="1.3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="31" leg_armor="6" arm_armor="8" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+<!-- Hauberk with Surcoat -->
+	<Item id="vs_hauberk_with_surcoata" name="{=vs_hauberk_with_surcoata}Hauberk with Surcoat of the Lion" mesh="vs_hauberk_with_surcoata" culture="Culture.vlandia" weight="16" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_hauberk_with_surcoatb" name="{=vs_hauberk_with_surcoatb}Hauberk with Royal Surcoat" mesh="vs_hauberk_with_surcoatb" culture="Culture.vlandia" weight="16" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_hauberk_with_surcoatc" name="{=vs_hauberk_with_surcoatc}Hauberk with Checkered Surcoat" mesh="vs_hauberk_with_surcoatc" culture="Culture.vlandia" weight="16" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_hauberk_with_surcoatd" name="{=vs_hauberk_with_surcoatd}Hauberk with Striped Surcoat" mesh="vs_hauberk_with_surcoatd" culture="Culture.vlandia" weight="16" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Churburg Armor -->
+	<Item id="vs_1ChurburghTorso" name="{=vs_1ChurburghTorso}Veteran's Plated Cuirass" mesh="sa_1churburghtorso" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="30" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_ChurburghTorso" name="{=vs_ChurburghTorso}Adorned Veteran's Plated Cuirass" mesh="sa_churburghtorso" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="30" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="20" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Brigandine -->
+<!-- Normal -->	
+	<Item id="vs_brigandine1b" name="{=vs_brigandine1b}Lys Brigandine" mesh="vs_brigandine1b" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="4" arm_armor="8" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_brigandine2b" name="{=vs_brigandine2b}Lion Brigandine" mesh="vs_brigandine2b" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="4" arm_armor="8" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_brigandine3b" name="{=vs_brigandine3b}Checkered Brigandine" mesh="vs_brigandine3b" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="4" arm_armor="8" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Armpads -->	
+	<Item id="vs_brigandine1a" name="{=vs_brigandine1a}Lys Brigandine with armpads" mesh="vs_brigandine1a" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="4" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_brigandine2a" name="{=vs_brigandine2a}Lion Brigandine with armpads" mesh="vs_brigandine2a" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="4" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_brigandine3a" name="{=vs_brigandine3a}Checkered Brigandine with armpads" mesh="vs_brigandine3a" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="4" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Hauberk -->	
+	<Item id="vs_brigandine_over_hauberk1" name="{=vs_brigandine_over_hauberk1}Lys Brigandine over Hauberk" mesh="vs_brigandine_over_hauberk1" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="18" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_brigandine_over_hauberk2" name="{=vs_brigandine_over_hauberk2}Lion Brigandine over Hauberk" mesh="vs_brigandine_over_hauberk2" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="18" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_brigandine_over_hauberk3" name="{=vs_brigandine_over_hauberk3}Checkered Brigandine over Hauberk" mesh="vs_brigandine_over_hauberk3" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="18" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>	
+
+<!-- Reinforced -->
+	<Item id="vs_brigandine1c" name="{=vs_brigandine1c}Reinforced Lion Brigandine" mesh="vs_brigandine1c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="21" arm_armor="21" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_brigandine2c" name="{=vs_brigandine2c}Reinforced Lion Brigandine" mesh="vs_brigandine2c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="21" arm_armor="21" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_brigandine3c" name="{=vs_brigandine3c}Reinforced Checkered Brigandine" mesh="vs_brigandine3c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="21" arm_armor="21" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Worn Gambeson -->
+	<Item id="vs_gambesona" name="{=vs_gambesona}Worn Half Gambeson" mesh="vs_gambesona" is_merchandise="true" culture="Culture.vlandia" weight="2.4" difficulty="0" appearance="0.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="7" arm_armor="3" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+	<Item id="vs_gambesonb" name="{=vs_gambesonb}Worn Banded Gambeson" mesh="vs_gambesonb" is_merchandise="true" culture="Culture.vlandia" weight="2.4" difficulty="0" appearance="0.8" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="7" arm_armor="3" has_gender_variations="true" covers_body="false" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+
+<!-- Worn Quilted Vest -->	
+	<Item id="vs_quilted_vesta" name="{=vs_quilted_vesta}Worn Checkered Quilted Vest" mesh="vs_quilted_vesta" culture="Culture.vlandia" weight="2.4" appearance="0.1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="3" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+	<Item id="vs_quilted_vestb" name="{=vs_quilted_vestb}Worn Striped Quilted Vest" mesh="vs_quilted_vestb" culture="Culture.vlandia" weight="2.4" appearance="0.1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="14" leg_armor="3" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+
+<!-- ARMORS OF CALROS' TEMPLE -->
+<!-- Disciple hood -->
+	<Item
+		id="vs_disciple_hood" name="{=vs_disciple_hood}Disciple Hood" culture="Culture.vlandia" mesh="vs_disciple_hood" subtype="body_armor" weight="0.35" difficulty="0" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	
+<!-- Cassock of Calros' Temple -->
+	<Item id="vs_calros_disciplea" name="{=vs_calros_disciplea}Cassock with Scapular of Calros' Temple" mesh="vs_calros_disciplea" culture="Culture.vlandia" weight="0.5" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="5" leg_armor="2" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	
+	<Item id="vs_calros_discipleb" name="{=vs_calros_discipleb}Cassock with Scapular of Calros' Temple" mesh="vs_calros_discipleb" culture="Culture.vlandia" weight="0.5" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="5" leg_armor="2" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	
+	<Item id="vs_calros_disciplec" name="{=vs_calros_disciplec}Cassock with Scapular of Calros' Temple" mesh="vs_calros_disciplec" culture="Culture.vlandia" weight="0.5" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="5" leg_armor="2" arm_armor="1" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+<!-- Tabard over Mail of Calros' Temple -->
+	<Item id="vs_calros_novicea" name="{=vs_calros_novicea}Tabard over Mail of Calros' Temple" mesh="vs_calros_novicea" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="20" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="20" leg_armor="10" arm_armor="8" covers_body="true" has_gender_variations="false" modifier_group="chain" material_type="Chainmail" />
+        </ItemComponent>
+        <Flags Civilian="false" />
+    </Item>
+	
+	<Item id="vs_calros_noviceb" name="{=vs_calros_noviceb}Tabard over Mail of Calros' Temple" mesh="vs_calros_noviceb" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="20" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="20" leg_armor="10" arm_armor="8" covers_body="true" has_gender_variations="false" modifier_group="chain" material_type="Chainmail" />
+        </ItemComponent>
+        <Flags Civilian="false" />
+    </Item>
+	
+	<Item id="vs_calros_novicec" name="{=vs_calros_novicec}Tabard over Mail of Calros' Temple" mesh="vs_calros_novicec" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="20" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="20" leg_armor="10" arm_armor="8" covers_body="true" has_gender_variations="false" modifier_group="chain" material_type="Chainmail" />
+        </ItemComponent>
+        <Flags Civilian="false" />
+    </Item>
+	
+	<Item id="vs_calros_novice_soulder" name="{=vs_calros_novice_soulder}Colletin of Calros' Temple" mesh="vs_calros_novice_soulder" is_merchandise="true" culture="Culture.vlandia" weight="2.6" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10" arm_armor="3" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Armor Plate over Tabard of Calros' Temple -->
+	<Item id="vs_calros_knightd" name="{=vs_calros_knightd}Armor Plate over Tabard of Calros' Temple" mesh="vs_calros_knightd" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="22" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="25" leg_armor="10" arm_armor="10" covers_body="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+	
+	<Item id="vs_calros_knighte" name="{=vs_calros_knighte}Armor Plate over Tabard of Calros' Temple" mesh="vs_calros_knighte" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="22" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="25" leg_armor="10" arm_armor="10" covers_body="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+	
+	<Item id="vs_calros_knightf" name="{=vs_calros_knightf}Armor Plate over Tabard of Calros' Temple" mesh="vs_calros_knightf" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="22" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="25" leg_armor="10" arm_armor="10" covers_body="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+
+	<Item id="vs_calros_knight_shoulderb" name="{=vs_calros_knight_shoulderb}Pauldrons of Calros' Temple" mesh="vs_calros_knight_shoulderb" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15" arm_armor="10" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_calros_bracers2" name="{=vs_calros_bracers2}Bracers of Calros' Temple" mesh="vs_calros_bracers2" is_merchandise="true" culture="Culture.vlandia" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="10" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+
+<!-- Ornate Armor over Tabard of Calros' Temple -->
+	<Item id="vs_calros_knighta" name="{=vs_calros_knighta}Ornate Armor over Tabard of Calros' Temple" mesh="vs_calros_knighta" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="28" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="35" leg_armor="15" arm_armor="10" covers_body="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags Civilian="false" />
+    </Item>
+	
+	<Item id="vs_calros_knightb" name="{=vs_calros_knightb}Ornate Armor over Tabard of Calros' Temple" mesh="vs_calros_knightb" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="28" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="35" leg_armor="15" arm_armor="10" covers_body="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags Civilian="false" />
+    </Item>
+	
+	<Item id="vs_calros_knightc" name="{=vs_calros_knightc}Ornate Armor over Tabard of Calros' Temple" mesh="vs_calros_knightc" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="28" difficulty="0" appearance="3" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="35" leg_armor="15" arm_armor="10" covers_body="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags Civilian="false" />
+    </Item>
+	
+	<Item id="vs_calros_knight_shouldera" name="{=vs_calros_knight_shouldera}Ornate Pauldrons of Calros' Temple" mesh="vs_calros_knight_shouldera" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="25" arm_armor="15" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_calros_pauldrons_with_cape_and_fur1" name="{=vs_calros_pauldrons_with_cape_and_fur1}Ornate Pauldrons of Calros' Temple with Cape" mesh="vs_calros_pauldrons_with_cape_and_fur1" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="25" arm_armor="15" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_calros_pauldrons_with_cape_and_fur2" name="{=vs_calros_pauldrons_with_cape_and_fur2}Ornate Pauldrons of Calros' Temple with Cape" mesh="vs_calros_pauldrons_with_cape_and_fur2" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="25" arm_armor="15" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_calros_pauldrons_with_cape_and_fur3" name="{=vs_calros_pauldrons_with_cape_and_fur3}Ornate Pauldrons of Calros' Temple with Cape" mesh="vs_calros_pauldrons_with_cape_and_fur3" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="25" arm_armor="15" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_calros_bracers1" name="{=vs_calros_bracers1}Ornate Bracers of Calros' Temple" mesh="vs_calros_bracers1" is_merchandise="true" culture="Culture.vlandia" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="15" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+
+<!-- SHOULDERS -->
+<!-- Fringed Hood -->
+	<Item id="vs_fringed_hooda" name="{=vs_fringed_hooda}Fringed Hood" culture="Culture.vlandia" mesh="vs_fringed_hooda" is_merchandise="true" subtype="body_armor" weight="0.35" difficulty="0" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_fringed_hoodb" name="{=vs_fringed_hoodb}Fringed Hood" culture="Culture.vlandia" mesh="vs_fringed_hoodb" is_merchandise="true" subtype="body_armor" weight="0.35" difficulty="0" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true" />
+	</Item>
+	
+<!-- Mail Colletin -->	
+	<Item id="vs_chain_shoulders" name="{=vs_chain_shoulders}Mail Colletin" mesh="chain_shoulders" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="11" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_colletin_with_camail" name="{=vs_colletin_with_camail}Colletin With Camail" mesh="vs_mail_colletin_with_hood" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" weight="4.2" difficulty="0" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+	</Item>
+	
+	<Item id="vs_old_mail_colletin" name="{=vs_old_mail_colletin}Old Mail Colletin" mesh="vs_old_mail_colletin" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" weight="5.7" difficulty="0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="9" arm_armor="5" modifier_group="chain" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_old_mail_colletin_with_leather" name="{=vs_old_mail_colletin_with_leather}Old Mail Colletin with Leather" mesh="vs_old_mail_colletin_with_leather" culture="Culture.battania" subtype="body_armor" weight="3.4" difficulty="0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="9" arm_armor="2" modifier_group="Chainmail" material_type="Chainmail" />
+		</ItemComponent>
+		<Flags />
+	</Item>	
+	
+<!-- Plate Pauldrons -->
+	<Item id="vs_heavy_pauldrons" name="{=vs_heavy_pauldrons}Heavy Plate Pauldrons" mesh="vs_heavy_pauldrons" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15" arm_armor="5" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_heavy_pauldrons_with_cape_and_fur" name="{=vs_heavy_pauldrons_with_cape_and_fur}Heavy Plate Pauldrons with Cape and Fur" mesh="vs_heavy_pauldrons_with_cape_and_fur" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="5" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_knight_pauldrons" name="{=vs_knight_pauldrons}Knight Plate Pauldrons" mesh="vs_knight_pauldrons" is_merchandise="true" culture="Culture.vlandia" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!-- Plate Shoulders -->	
+    <Item id="vs_shoulders" name="{=vs_shoulders}Plate Shoulders" mesh="swadian_shoulders" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15" arm_armor="5" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_plate_shoulder_with_cape" name="{=vs_plate_shoulder_with_cape}Plate Shoulders with Cape" mesh="vs_plate_shoulder_with_cape" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15" arm_armor="5" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_knight_plate_shoulder" name="{=vs_knight_plate_shoulder}Knight Plate Shoulders" mesh="vs_knight_plate_shoulder" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15" arm_armor="6" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!-- Long Cape -->	
+	<Item id="vs_long_cape" name="{=vs_long_cape}Long Cape" mesh="vs_long_cape" culture="Culture.vlandia" subtype="body_armor" weight="0.5" difficulty="0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3" arm_armor="2" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_long_noble_cape" name="{=vs_long_noble_cape}Long Noble Cape" mesh="vs_long_noble_cape" culture="Culture.vlandia" subtype="body_armor" weight="0.5" difficulty="0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="3" arm_armor="2" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true" />
+	</Item>
+	
+<!-- Brown Fur Cloak -->	
+	<Item id="vs_fur_cloaka" name="{=vs_fur_cloaka}Brown Fur Cloak" mesh="vs_fur_cloaka" culture="Culture.vlandia" subtype="body_armor" is_merchandise="true" weight="1.8" difficulty="0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="6" arm_armor="3" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	
+	<Item id="vs_cape_with_fura" name="{=vs_cape_with_fura}Cape with Brown Fur" mesh="vs_cape_with_fura" culture="Culture.vlandia" subtype="body_armor" is_merchandise="true" weight="1.8" difficulty="0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+<!-- Tawny Fur Cloak -->
+	<Item id="vs_fur_cloakb" name="{=vs_fur_cloakb}Tawny Fur Cloak" mesh="vs_fur_cloakb" culture="Culture.vlandia" subtype="body_armor" weight="1.8" difficulty="0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="6" arm_armor="3" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	
+	<Item id="vs_cape_with_furb" name="{=vs_cape_with_furb}Cape with Tawny Fur" mesh="vs_cape_with_furb" culture="Culture.vlandia" subtype="body_armor" is_merchandise="true" weight="1.8" difficulty="0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+	
+<!-- Leather Shoulders -->		
+	<Item id="vs_leather_pauldrons_with_harness" name="{=vs_leather_pauldrons_with_harness}Leather Pauldrons with Harness" mesh="vs_leather_pauldrons_with_harness" culture="Culture.vlandia" subtype="body_armor" is_merchandise="true" weight="0.8" difficulty="0"  appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" arm_armor="2" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+	</Item>
+	
+	<Item id="vs_woven_leather_shoulders" name="{=vs_woven_leather_shoulders}Woven Leather Shoulders" mesh="vs_woven_leather_shoulders" culture="Culture.vlandia" weight="2.8" appearance="3" Type="Cape" is_merchandise="true">
+		<ItemComponent>
+			<Armor body_armor="2" arm_armor="6" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!-- Vlandian Leather Colletin -->		
+	<Item id="vs_leather_colletin" name="{=vs_leather_colletin}Leather Colletin With Hood" mesh="vs_leather_colletin_with_hood" is_merchandise="true" culture="Culture.vlandia" weight="1.6" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="5" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags />
+	</Item>	
+
+<!-- Quilted Colletin -->
+	<Item id="vs_quilted_colletina" name="{=vs_quilted_colletina}Half Quilted Colletin" mesh="vs_quilted_colletina" culture="Culture.vlandia" weight="2.4" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="6" arm_armor="2" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_quilted_colletinb" name="{=vs_quilted_colletinb}Checkered Quilted Colletin" mesh="vs_quilted_colletinb" culture="Culture.vlandia" weight="2.4" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="6" arm_armor="2" modifier_group="cloth" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- ARMS -->	
+<!-- Vlandian Plate Gauntlets -->
+	<Item id="vs_plate_gauntlets" name="{=vs_plate_gauntlets}Plate Gauntlets" mesh="vs_plate_gauntlets" is_merchandise="true" culture="Culture.vlandia" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="22" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+
+	<Item id="vs_plate_bracers1" name="{=vs_plate_bracers1}Plate Bracers with Brown Gloves" mesh="vs_plate_bracers1" is_merchandise="true" culture="Culture.vlandia" weight="1.9" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="20" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+
+	<Item id="vs_plate_bracers2" name="{=vs_plate_bracers2}Plate Bracers with Black Gloves" mesh="vs_plate_bracers2" is_merchandise="true" culture="Culture.vlandia" weight="1.9" difficulty="0" appearance="3" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="20" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+        </ItemComponent>
+        <Flags UseTeamColor="false" />
+    </Item>
+
+<!-- Visby Gauntlets -->	
+	<Item id="vs_visby_gauntlets1" name="{=vs_visby_gauntlets1}Brown Visby Gauntlets" mesh="vs_visby_gauntlets1" is_merchandise="true" culture="Culture.vlandia" weight="1.0" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true" />
+	</Item>
+	
+	<Item id="vs_visby_gauntlets2" name="{=vs_visby_gauntlets2}Black Visby Gauntlets" mesh="vs_visby_gauntlets2" is_merchandise="true" culture="Culture.vlandia" weight="1.0" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" Civilian="true" />
+	</Item>
+
+<!-- Plated Striped Gauntlets -->	
+	<Item id="vs_plated_striped_gauntlets1" name="{=vs_plated_striped_gauntlets1}Plated Striped Gauntlets with Brown Gloves" mesh="vs_plated_striped_gauntlets1" is_merchandise="true" culture="Culture.vlandia" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="22" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<Item id="vs_plated_striped_gauntlets2" name="{=vs_plated_striped_gauntlets2}Plated Striped Gauntlets with Black Gloves" mesh="vs_plated_striped_gauntlets2" is_merchandise="true" culture="Culture.vlandia" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="22" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+<!-- Studded Leather Bracers -->	
+	<Item id="vs_studded_leather_bracers1" name="{=vs_studded_leather_bracers1}Studded Leather Bracers with Brown Gloves" mesh="vs_studded_leather_bracers1" is_merchandise="true" culture="Culture.vlandia" weight="1.0" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="14" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<Item id="vs_studded_leather_bracers2" name="{=vs_studded_leather_bracers2}Studded Leather Bracers with Black Gloves" mesh="vs_studded_leather_bracers2" is_merchandise="true" culture="Culture.vlandia" weight="1.0" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="14" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+<!-- Reinforced Leather Bracers -->	
+	<Item id="vs_reinforced_leather_bracers1" name="{=vs_reinforced_leather_bracers1}Reinforced Leather Bracers with Thick Brown Gloves" mesh="vs_reinforced_leather_bracers1" is_merchandise="true" culture="Culture.vlandia" weight="1.3" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="21" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<Item id="vs_reinforced_leather_bracers2" name="{=vs_reinforced_leather_bracers2}Reinforced Leather Bracers with Thick Black Gloves" mesh="vs_reinforced_leather_bracers2" is_merchandise="true" culture="Culture.vlandia" weight="1.3" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="21" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+<!-- Woven Leather Bracers -->
+	<Item id="vs_woven_leather_bracers1" name="{=vs_woven_leather_bracers1}Woven Leather Bracers with Brown Gloves" mesh="vs_woven_leather_bracers1" is_merchandise="true" culture="Culture.vlandia" weight="0.8" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="8" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<Item id="vs_woven_leather_bracers2" name="{=vs_woven_leather_bracers2}Woven Leather Bracers with Black Gloves" mesh="vs_woven_leather_bracers2" is_merchandise="true" culture="Culture.vlandia" weight="0.8" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="8" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>	
+
+<!-- Churburg Mittens -->
+	<Item id="vs_1ChurburghGauntlet" name="{=vs_1ChurburghGauntlet}Veteran's Plate Mittens" mesh="sa_1churburghgauntlet" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="25" covers_hands="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<Item id="vs_ChurburghGauntlet" name="{=vs_ChurburghGauntlet}Adorned Veteran's Plate Mittens" mesh="sa_churburghgauntlet" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="25" covers_hands="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+<!-- Black Leather Gloves -->
+	<Item id="vs_black_leather_gloves" name="{=vs_black_leather_gloves}Black Leather Gloves" mesh="vs_black_leather_gloves" culture="Culture.vlandia" weight="0.4" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="9" covers_hands="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>	
+
+<!-- LEGS -->	
+<!-- Vlandian Plate Boots -->
+	<Item id="vs_plate_boots" name="{=vs_plate_boots}Plate Solerets" mesh="plateboot" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_greaves" name="{=vs_greaves}Plate Greaves" mesh="vs_greaves" is_merchandise="true" culture="Culture.vlandia" weight="3" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>	
+
+<!-- Shoes With Legwraps -->	
+	<Item id="vs_tied_boots" name="{=vs_tied_boots}Shoes With Legwraps" mesh="vs_tied_boots" is_merchandise="true" culture="Culture.vlandia" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="3" covers_legs="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+
+<!-- Black Travel Boots -->	
+	<Item id="vs_black_travel_boots" name="{=vs_black_travel_boots}Black Travel Boots" mesh="vs_black_travel_boots" culture="Culture.battania" weight="1.0" difficulty="0" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5" covers_legs="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	
+<!-- Black Town Boots -->
+	<Item id="vs_black_town_boots" name="{=vs_black_town_boots}Black Town Boots" mesh="vs_black_town_boots" culture="Culture.vlandia" weight="0.5" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4" covers_legs="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	
+<!-- Black Cavalier Boots -->
+	<Item id="vs_black_cavalier_boots" name="{=vs_black_cavalier_boots}Black Cavalier Boots" mesh="vs_black_cavalier_boots" culture="Culture.vlandia" weight="0.9" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="16" covers_legs="true" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>	
+	
+<!-- Boots of Calros' Temple -->	
+	<Item id="vs_calros_boots2" name="{=vs_calros_boots2}Steel Solerets of Calros' Temple" mesh="vs_calros_boots2" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="15" covers_legs="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<Item id="vs_calros_boots1" name="{=vs_calros_boots1}Ornate Solerets of Calros' Temple" mesh="vs_calros_boots1" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>	
+	
+<!-- Churburg Boots -->
+	<Item id="vs_1ChurburghBoots" name="{=vs_1ChurburghBoots}Veteran's Plate Solerets" mesh="sa_1churburghboots" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>	
+	
+	<Item id="vs_ChurburghBoots" name="{=vs_ChurburghBoots}Adorned Veteran's Plate Solerets" mesh="sa_churburghboots" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>	
+
+<!-- HEAD -->
+<!-- Great Helmet -->	
+	<Item id="vs_great_helmet_base" name="{=vs_great_helmet_base}Heaume" subtype="head_armor" mesh="great_helm_base" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_great_helmet_brass" name="{=vs_great_helmet_brass}Ornate Heaume" subtype="head_armor" mesh="great_helm_brass" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_winged_great_helm_brass" name="{=vs_winged_great_helm_brass}Ornate Winged Heaume" subtype="head_armor" mesh="winged_great_helm_brass" is_merchandise="true" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_winged_great_helm_base" name="{=vs_winged_great_helm_base}Winged Heaume" subtype="head_armor" mesh="winged_great_helm_base" culture="Culture.vlandia" weight="4.8" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+<!-- Great Helmet with Crest -->	
+	<Item id="vs_great_helmet_with_antler_crest" name="{=vs_great_helmet_with_antler_crest}Great Helmet with Antler Crest" subtype="head_armor" mesh="sa_butterlord1" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_great_helmet_with_eagle_crest" name="{=vs_great_helmet_with_eagle_crest}Great Helmet with Eagle Crest" subtype="head_armor" mesh="sa_butterlord2" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_great_helmet_with_grail_crest" name="{=vs_great_helmet_with_grail_crest}Great Helmet with Grail Crest" subtype="head_armor" mesh="sa_butterlord3" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+  
+	<Item id="vs_ornate_great_helmet_with_antler_crest" name="{=vs_ornate_great_helmet_with_antler_crest}Ornate Great Helmet with Antler Crest" subtype="head_armor" mesh="sa_butterlord5" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="72000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+  
+	<Item id="vs_ornate_great_helmet_with_eagle_crest" name="{=vs_ornate_great_helmet_with_eagle_crest}Ornate Great Helmet with Eagle Crest" subtype="head_armor" mesh="sa_butterlord6" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+  
+    <Item id="vs_ornate_great_helmet_with_grail_crest" name="{=vs_ornate_great_helmet_with_grail_crest}Ornate Great Helmet with Grail Crest" subtype="head_armor" mesh="sa_butterlord7" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+<!-- Sallet -->
+    <Item id="vs_sallet_base" name="{=vs_sallet_base}Visored Sallet with Bevor" subtype="head_armor" mesh="sallet_base" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+ 
+    <Item id="vs_sallet_wings" name="{=vs_sallet_wings}Winged Visored Sallet with Bevor" subtype="head_armor" mesh="sallet_winged" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_sallet_no_visor" name="{=vs_sallet_no_visor}Open Sallet with Bevor" subtype="head_armor" mesh="sallet_no_visor" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_sallet_open_visor" name="{=vs_sallet_open_visor}Sallet with Visor Raised and Bevor" subtype="head_armor" mesh="vs_sallet_open_visor" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="38" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_sallet_open_visor_with_camail" name="{=vs_sallet_open_visor_with_camail}Sallet with Visor Raised and Camail" subtype="head_armor" mesh="vs_sallet_open_visor_with_camail" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="28" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_sallet_open_visor_with_coif" name="{=vs_sallet_open_visor_with_coif}Sallet with Visor Raised and Coif" subtype="head_armor" mesh="vs_sallet_open_visor_with_coif" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="none" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_sallet_with_camail" name="{=vs_sallet_with_camail}Visored Sallet with Camail" subtype="head_armor" mesh="vs_sallet_with_camail" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="32" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_sallet_with_coif" name="{=vs_sallet_with_coif}Visored Sallet with Coif" subtype="head_armor" mesh="vs_sallet_with_coif" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="30" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="none" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+<!-- Bascinet -->  
+    <Item id="vs_pigface_bascinet" name="{=vs_pigface_bascinet}Hounskull Bascinet" subtype="head_armor" mesh="pigface_bascinet" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+  
+    <Item id="vs_pigface_bascinet_feather" name="{=vs_pigface_bascinet_feather}Hounskull Bascinet with Plumes" subtype="head_armor" mesh="pigface_bascinet_feather" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+  
+	<Item id="vs_pigface_bascinet_tail" name="{=vs_pigface_bascinet_tail}Hounskull Bascinet with Mane" subtype="head_armor" mesh="pigface_bascinet_tail" is_merchandise="true" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_bacinet_with_klappvisor" name="{=vs_bacinet_with_klappvisor}Bascinet with Klappvisor" subtype="head_armor" mesh="sa_bacinet_with_facemask" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+	
+	<Item id="vs_bascinet_with_open_klappvisor" name="{=vs_bascinet_with_open_klappvisor}Bascinet with Open Klappvisor" subtype="head_armor" mesh="vs_bascinet_with_open_klappvisor" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="38" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+	
+	<Item id="vs_bascinet_with_camail" name="{=vs_bascinet_with_camail}Open Bascinet with Camail" mesh="vs_bascinet_with_camail" is_merchandise="true" culture="Culture.vlandia" weight="3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="28" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>	
+
+	<Item id="vs_bascinet_with_open_dog_face_visor" name="{=vs_bascinet_with_open_dog_face_visor}Hounskull Bascinet with Raised Visor" subtype="head_armor" mesh="vs_bascinet_with_open_dog_face_visor" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+
+<!-- Full Plate Helmet -->  
+    <Item id="vs_helmet_with_faceplate" name="{=vs_helmet_with_faceplate}Enclosed Helmet" subtype="head_armor" mesh="vlandian_helm_with_faceplate" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+  
+    <Item id="vs_helmet_with_faceplate_brass" name="{=vs_helmet_with_faceplate_brass}Ornate Enclosed Helmet" subtype="head_armor" mesh="vlandian_helm_with_faceplate_brass" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+  
+    <Item id="vs_helmet_with_faceplate_painted" name="{=vs_helmet_with_faceplate_painted}Painted Enclosed Helmet" subtype="head_armor" mesh="vlandian_helm_with_faceplate_paint" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+<!-- Italio Norman Helmet -->
+	<Item id="vs_italio_norman_helm_bronze" name="{=vs_italio_norman_helm_bronze}Pointed Skullcap with Brass Faceplate" subtype="head_armor" mesh="italio_norman_helm_bronze" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+  
+	<Item id="vs_italio_norman_helm" name="{=vs_italio_norman_helm}Pointed Skullcap with Faceplate" subtype="head_armor" mesh="italio_norman_helm" is_merchandise="true" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!-- Helmet With Visor -->  
+	<Item id="vs_helmet_with_visor" name="{=vs_helmet_with_visor}Visored Barbute" subtype="head_armor" mesh="vlandian_helm_with_visor" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />	
+	</Item> 
+	
+    <Item id="vs_engraved_helmet_with_visor" name="{=vs_engraved_helmet_with_visor}Ornate Visored Barbute" subtype="head_armor" mesh="engraved_vlandian_helm_with_visor" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />	
+	</Item>
+	
+	<Item id="vs_bascinet_with_open_visor1" name="{=vs_bascinet_with_open_visor1}Visored Barbute with Raised Visor" subtype="head_armor" mesh="vs_bascinet_with_open_visor1" is_merchandise="true" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />	
+	</Item>
+	
+<!-- Armet -->
+	<Item id="vs_feathered_armet" name="{=vs_feathered_armet}Feathered Armet" subtype="head_armor" mesh="armet" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="47" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+	<Item id="vs_armet" name="{=vs_armet}Armet" subtype="head_armor" mesh="armet2" culture="Culture.vlandia" weight="4.6" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="47" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>	
+
+<!-- Round Top Helmet -->	
+	<Item id="vs_great_prankh_helm" name="{=vs_great_prankh_helm}RoundTop Barrel Helm" subtype="head_armor" mesh="great_prankh_helm" is_merchandise="true" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>	
+	    <Flags UseTeamColor="false" />
+	</Item>
+	
+	<Item id="vs_great_prankh_helm_crest" name="{=vs_great_prankh_helm_crest}RoundTop Barrel Helm with Crest" subtype="head_armor" mesh="great_prankh_helm_crest" is_merchandise="true" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_great_prankh_helm_horns" name="{=vs_great_prankh_helm_horns}RoundTop Barrel Helm with Horns" subtype="head_armor" mesh="great_prankh_helm_horns" is_merchandise="true" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<Item id="vs_great_prankh_helm_winged" name="{=vs_great_prankh_helm_winged}RoundTop Barrel Helm with Wings" subtype="head_armor" mesh="great_prankh_helm_winged" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Fluted Helmet -->	
+	<Item id="vs_fluted_helm_with_brass_faceplate" name="{=vs_fluted_helm_with_brass_faceplate}Fluted Helmet With Brass Faceplate" subtype="head_armor" mesh="fluted_helm_with_brass_faceplate" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+  
+	<Item id="vs_fluted_helm_with_faceplate" name="{=vs_fluted_helm_with_faceplate}Fluted Helmet With Faceplate" subtype="head_armor" mesh="fluted_helm_with_faceplate" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!-- Fluted Cervelliere -->	
+	<Item id="vs_fluted_cervellierea" name="{=vs_fluted_cervellierea}Fluted Cervelliere" subtype="head_armor" mesh="vs_fluted_cervellierea" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_fluted_cervelliereb" name="{=vs_fluted_cervelliereb}Ornate Fluted Cervelliere" subtype="head_armor" mesh="vs_fluted_cervelliereb" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+<!-- Painted Cervelliere -->
+	<Item id="vs_painted_cervellierea" name="{=vs_painted_cervellierea}Painted Half Cervelliere with Camail" subtype="head_armor" mesh="vs_painted_cervellierea" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_painted_cervelliereb" name="{=vs_painted_cervelliereb}Painted Striated Cervelliere with Camail" subtype="head_armor" mesh="vs_painted_cervelliereb" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_painted_cervellierec" name="{=vs_painted_cervellierec}Painted Half Cervelliere with Leather Coif" subtype="head_armor" mesh="vs_painted_cervellierec" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_painted_cervelliered" name="{=vs_painted_cervelliered}Painted Striated Cervelliere with Leather Coif" subtype="head_armor" mesh="vs_painted_cervelliered" is_merchandise="true" culture="Culture.vlandia" weight="3.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Roundtop Full Helmet -->	
+	<Item id="vs_pothelm" name="{=vs_pothelm}Roundtop Enclosed Helmet" subtype="head_armor" mesh="pothelm" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+    
+	<Item id="vs_pothelm2" name="{=vs_pothelm2}Painted Roundtop Enclosed Helmet" subtype="head_armor" mesh="pothelm2" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_pothelm_with_facemask" name="{=vs_pothelm_with_facemask}Roundtop Helmet with Facemask" subtype="head_armor" mesh="vs_pothelm_with_facemask" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="43" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+<!-- Sugarloaf Helmet -->  
+	<Item id="vs_sugarloaf_helm" name="{=vs_sugarloaf_helm}Banded Sugarloaf Helmet" subtype="head_armor" mesh="sugarloaf_helm" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_sugarloaf_helm2" name="{=vs_sugarloaf_helm2}Ornate Banded Sugarloaf Helmet" subtype="head_armor" mesh="sugarloaf_helm2" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_sugarloaf_helm3" name="{=vs_sugarloaf_helm3}Sugarloaf Helmet" subtype="head_armor" mesh="sugarloaf_helm3" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+	
+    <Item id="vs_sugarloaf_helm4" name="{=vs_sugarloaf_helm4}Ornate Sugarloaf Helmet" subtype="head_armor" mesh="sugarloaf_helm4" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+	
+<!-- Watchman's Helmet -->	
+	<Item id="vs_watchman_helmet" name="{=vs_watchman_helmet}Watchman's Helmet" mesh="vs_watchman_helmet" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" weight="3.0" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="20" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+		
+<!-- Open Knight's Helmet -->	
+	<Item id="vs_open_knight_helmeta" name="{=vs_open_knight_helmeta}Open Knight's Helmet with Camail" mesh="vs_open_knight_helmeta" culture="Culture.vlandia" is_merchandise="true" weight="3.8" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="35" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_open_knight_helmetb" name="{=vs_open_knight_helmetb}Open Knight's Helmet with Coif" mesh="vs_open_knight_helmetb" culture="Culture.vlandia" is_merchandise="true" weight="3.8" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="33" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<Item id="vs_open_knight_helmetc" name="{=vs_open_knight_helmetc}Open Knight's Helmet with Leather Cap" mesh="vs_open_knight_helmetc" culture="Culture.vlandia" is_merchandise="true" weight="3.8" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+<!-- Flat Helmet -->	
+	<Item id="vs_flat_helmeta" name="{=vs_flat_helmeta}Flat Helmet with Camail" mesh="vs_flat_helmeta" culture="Culture.vlandia" is_merchandise="true" weight="3.0" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="24" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item id="vs_flat_helmetb" name="{=vs_flat_helmetb}Flat Helmet with Leather Cap" mesh="vs_flat_helmetb" culture="Culture.vlandia" is_merchandise="true" weight="1.6" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="22" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_flat_helmetc" name="{=vs_flat_helmetc}Flat Helmet with Padded Coif" mesh="vs_flat_helmetc" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" weight="1.5" difficulty="0" appearance="2" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="23" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_flat_fluted_helmeta" name="{=vs_flat_fluted_helmeta}Flat Fluted Helmet with Leather Cap" mesh="vs_flat_fluted_helmeta" culture="Culture.vlandia" is_merchandise="true" weight="1.6" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="24" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_flat_fluted_helmetb" name="{=vs_flat_fluted_helmetb}Flat Fluted Helmet with Padded Coif" mesh="vs_flat_fluted_helmetb" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" weight="1.5" difficulty="0" appearance="2" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+		
+	<Item id="vs_flat_fluted_helmetc" name="{=vs_flat_fluted_helmetc}Flat Fluted Helmet with Camail" mesh="vs_flat_fluted_helmetc" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" weight="3.0" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_kettle_flat_fluted_helmeta" name="{=vs_kettle_flat_fluted_helmeta}Wide-Brimmed Flat Fluted Helmet with Camail" mesh="vs_kettle_flat_fluted_helmeta" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" weight="3.0" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="28" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item id="vs_kettle_flat_fluted_helmetb" name="{=vs_kettle_flat_fluted_helmetb}Wide-Brimmed Flat Fluted Helmet with Padded Coif" mesh="vs_kettle_flat_fluted_helmetb" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" weight="1.5" difficulty="0" appearance="2" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="27" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+		
+	<Item id="vs_kettle_flat_fluted_helmetc" name="{=vs_kettle_flat_fluted_helmetc}Wide-Brimmed Flat Fluted Helmet with Leather Cap" mesh="vs_kettle_flat_fluted_helmetc" culture="Culture.vlandia" is_merchandise="true" weight="1.6" appearance="0.9" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="26" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!-- Kettle Helmet -->
+	<Item id="vs_kettle_helmeta" name="{=vs_kettle_helmeta}Kettle Helmet with Leather Cap" subtype="head_armor" mesh="vs_kettle_helmeta" culture="Culture.vlandia" weight="2.4" difficulty="0" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="33" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item id="vs_kettle_helmetb" name="{=vs_kettle_helmetb}Kettle Helmet with Padded Coif" subtype="head_armor" mesh="vs_kettle_helmetb" culture="Culture.vlandia" weight="2.4" difficulty="0" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="34" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<Item id="vs_kettle_helmetc" name="{=vs_kettle_helmetc}Kettle Helmet with Camail" subtype="head_armor" mesh="vs_kettle_helmetc" culture="Culture.vlandia" weight="2.4" difficulty="0" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="35" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Visored Kettle Helmet -->
+	<Item id="vs_visored_kettle_helmet_with_mail1" name="{=vs_visored_kettle_helmet_with_mail1}Visored Kettle Helmet with Camail" subtype="head_armor" mesh="sa_visoredkettlehelmet" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="38" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+  
+	<Item id="vs_visored_kettle_helmet_with_mail2" name="{=vs_visored_kettle_helmet_with_mail2}Painted Visored Kettle Helmet with Camail" subtype="head_armor" mesh="sa_visoredkettlehelmet1" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="38" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_visored_kettle_helmet_with_padded_coif1" name="{=vs_visored_kettle_helmet_with_padded_coif1}Visored Kettle Helmet with Padded Coif" subtype="head_armor" mesh="vs_visored_kettle_helmet_with_padded_coif1" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+  
+	<Item id="vs_visored_kettle_helmet_with_padded_coif2" name="{=vs_visored_kettle_helmet_with_padded_coif2}Painted Visored Kettle Helmet with Padded Coif" subtype="head_armor" mesh="vs_visored_kettle_helmet_with_padded_coif2" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+<!-- Churburg Helmet -->
+	<Item id="vs_1ChurburghHelm" name="{=vs_1ChurburghHelm}Veteran's Hounskull Bascinet" subtype="head_armor" mesh="sa_1churburghhelm" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+
+	<Item id="vs_ChurburghHelm" name="{=vs_ChurburghHelm}Adorned Veteran's Hounskull Bascinet" subtype="head_armor" mesh="sa_churburghhelm" is_merchandise="true" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+	
+	<Item id="vs_churburghHelm_feather" name="{=vs_churburghHelm_feather}Feathered Veteran's Hounskull Bascinet" subtype="head_armor" mesh="sa_churburghHelm_feather" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_churburghHelm_trimmed_feather" name="{=vs_churburghHelm_trimmed_feather}Adorned Veteran's Hounskull Bascinet With Plumes" subtype="head_armor" mesh="sa_churburghHelm_trimmed_feather" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" is_merchandise="true" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+			
+<!-- Barbutes -->	
+	<Item id="vs_barbute1" name="{=vs_barbute1}Barbute" subtype="head_armor" mesh="sa_barbute1" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="33" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />	
+	</Item>
+  
+	<Item id="vs_barbute2" name="{=vs_barbute2}Painted Barbute" subtype="head_armor" mesh="sa_barbute2" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="33" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+  
+	<Item id="vs_barbute3" name="{=vs_barbute3}Barbute with Plumes" subtype="head_armor" mesh="sa_barbute3" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="33" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+  
+    <Item id="vs_barbute4" name="{=vs_barbute4}Painted Barbute with Plumes" subtype="head_armor" mesh="sa_barbute4" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="33" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+	
+	<Item id="vs_ornate_barbute" name="{=vs_ornate_barbute}Ornate Barbute with Plumes" subtype="head_armor" mesh="vs_ornate_barbute" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="43" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />	
+	</Item>
+
+<!-- Elegant Chaperon -->
+	<Item id="vs_chaperon" name="{=vs_chaperon}Elegant Chaperon" subtype="head_armor" mesh="vs_chaperon" culture="Culture.vlandia" weight="0.4" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="7" has_gender_variations="false" hair_cover_type="type1" modifier_group="leather" material_type="Leather" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+
+<!-- WEAPONS -->  
+<!-- Laurel Leaf Arrows -->
+	<Item id="vs_arrows" name="{=vs_arrows}Laurel Leaf Arrows" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" mesh="arrow_bl_g" holster_mesh="arrow_bl_c_quiver" holster_mesh_with_weapon="arrow_bl_c_quiver" weight="0.048" flying_mesh="arrow_bl_flying" appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_bolts_2:quiver_bolts" holster_position_shift="0.0,0.0,0.15" is_merchandise="true" culture="Culture.vlandia">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" stack_amount="28" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="97" thrust_damage="0" thrust_damage_type="Pierce" item_usage="arrow_top" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.13" modifier_group="arrow">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Passadoux Arrows -->
+	<Item id="vs_heavy_arrows" name="{=vs_heavy_arrows}Passadoux Arrows" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" mesh="arrow_bl_a" holster_mesh="arrow_bl_a_quiver" holster_mesh_with_weapon="arrow_bl_a_quiver" weight="0.050" flying_mesh="arrow_bl_flying" appearance="1" Type="Arrows" item_holsters="quiver_back_top:quiver_bolts_2:quiver_bolts" holster_position_shift="0.0,0.0,0.15" is_merchandise="true" culture="Culture.vlandia">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow" stack_amount="26" thrust_speed="0" speed_rating="0" physics_material="missile" missile_speed="10" weapon_length="97" thrust_damage="2" thrust_damage_type="Pierce" item_usage="arrow_top" passby_sound_code="event:/mission/combat/missile/passby" rotation="0, -80, 25" sticking_position="0,-0.97,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.13" modifier_group="arrow">
+				<WeaponFlags Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Light Cranequin -->  
+	<Item id="vs_cranequin_1" name="{=vs_cranequin_1}Light Cranequin" body_name="bo_composite_crossbows" mesh="crossbow_e" is_merchandise="true" culture="Culture.vlandia" weight="2.2" appearance="0.4" difficulty="20" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.22975" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" thrust_speed="61" speed_rating="35" missile_speed="82" weapon_length="95" accuracy="98" thrust_damage="75" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags RangedWeapon="true" HasString="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Cranequin -->  
+	<Item id="vs_cranequin_2" name="{=vs_cranequin_2}Cranequin" body_name="bo_composite_crossbows" is_merchandise="true" culture="Culture.vlandia" mesh="crossbow_g" weight="2.2" appearance="0.7" difficulty="40" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.22975" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" thrust_speed="85" speed_rating="61" missile_speed="93" weapon_length="95" accuracy="99" thrust_damage="85" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" center_of_mass="0,0,0.4">
+				<WeaponFlags RangedWeapon="true" HasString="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>  
+	
+<!-- Vlandian Battle Axe -->
+	<CraftedItem id="vs_axe_2_t5" name="{=vs_axe_2_t5}Steel Battle Axe" crafting_template="OneHandedAxe" culture="Culture.vlandia" is_merchandise="true">
+		<Pieces>
+			<Piece id="axe_craft_25_head" Type="Blade" scale_factor="80" />
+			<Piece id="axe_craft_3_handle" Type="Handle" scale_factor="110" />
+		</Pieces>
+	</CraftedItem>
+	
+<!-- Vlandian War Axe -->  
+	<CraftedItem id="vs_axe_1_t6" name="{=vs_axe_1_t6}Steel War Axe" crafting_template="OneHandedAxe" culture="Culture.vlandia" is_merchandise="true">
+		<Pieces>
+			<Piece id="axe_craft_8_head" Type="Blade" scale_factor="90" />
+			<Piece id="axe_craft_16_handle" Type="Handle" scale_factor="90" />
+		</Pieces>
+	</CraftedItem>
+	
+<!-- Cavalry Mace -->
+	<CraftedItem id="vs_mace_1" name="{=vs_mace_1}Steel Cavalry Mace" crafting_template="Mace" culture="Culture.vlandia" is_merchandise="true">
+		<Pieces>
+			<Piece id="mace_head_3" Type="Blade" scale_factor="120" />
+			<Piece id="mace_handle_1" Type="Handle" scale_factor="110" />
+		</Pieces>
+	</CraftedItem>
+	
+<!-- Mâchicoulis -->
+	<CraftedItem id="vs_machicoulis" name="{=vs_machicoulis}Mâchicoulis" crafting_template="Mace" culture="Culture.vlandia" is_merchandise="true">
+		<Pieces>
+			<Piece id="mace_head_2" Type="Blade" scale_factor="110" />
+			<Piece id="mace_handle_5" Type="Handle" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>	
+	
+<!-- Short Steel Bill -->	
+	<CraftedItem id="vlandia_steel_bill" name="{=vlandia_steel_bill}Short Steel Bill" crafting_template="TwoHandedAxe" culture="Culture.vlandia" is_merchandise="true">
+		<Pieces>
+			<Piece id="axe_craft_17_head" Type="Blade" scale_factor="100" />
+			<Piece id="axe_craft_4_handle" Type="Handle" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+<!-- Two Handed Steel Axe -->	
+	<CraftedItem id="vs_2h_steel_axe" name="{=vs_2h_steel_axe}Two Handed Steel Axe" crafting_template="TwoHandedAxe" culture="Culture.vlandia">
+		<Pieces>
+			<Piece id="axe_craft_34_head" Type="Blade" scale_factor="80" />
+			<Piece id="axe_craft_4_handle" Type="Handle" scale_factor="80" />
+		</Pieces>
+	</CraftedItem>
+
+<!-- Two Handed Heavy Steel Axe -->	
+	<CraftedItem id="vs_2h_heavy_steel_axe" name="{=vs_2h_heavy_steel_axe}Two Handed Heavy Steel Axe" crafting_template="TwoHandedAxe" culture="Culture.vlandia">
+		<Pieces>
+			<Piece id="axe_craft_22_head" Type="Blade" scale_factor="100" />
+			<Piece id="axe_craft_4_handle" Type="Handle" scale_factor="80" />
+		</Pieces>
+	</CraftedItem>
+
+<!-- Long Cavalry Lance -->	
+	<CraftedItem id="vs_long_cavalry_lance" name="{=vs_long_cavalry_lance}Long Cavalry Lance" crafting_template="TwoHandedPolearm" culture="Culture.vlandia" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_13" Type="Blade" scale_factor="110" />
+			<Piece id="spear_banner_2" Type="Guard" scale_factor="100" />
+			<Piece id="spear_handle_20" Type="Handle" scale_factor="100" />
+			<Piece id="spear_pommel_9" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+<!-- Destrier -->	
+	<Item id="vs_war_horse" name="{=vs_war_horse}Destrier" mesh="horse_brown" subtype="horse" item_category="war_horse" culture="Culture.vlandia" weight="390" is_merchandise="true" difficulty="80" appearance="1" Type="Horse">
+		<ItemComponent>
+			<Horse monster="Monster.horse" maneuver="63" speed="61" charge_damage="23" body_length="105" is_mountable="true" extra_health="200" modifier_group="horse">
+				<AdditionalMeshes>
+					<Mesh name="horse_mane_2" affected_by_cover="true" />
+					<Mesh name="horse_trotter" />
+				</AdditionalMeshes>
+				<Materials>
+					<Material name="horse_brown_mat">
+						<MeshMultipliers>
+							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75" />
+							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25" />
+						</MeshMultipliers>
+					</Material>
+					<Material name="horse_black_mat">
+						<MeshMultipliers>
+							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75" />
+							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25" />
+						</MeshMultipliers>
+					</Material>
+					<Material name="horse_grey_mat">
+						<MeshMultipliers>
+							<MeshMultiplier mesh_multiplier="FF303030" percentage="0.75" />
+							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25" />
+						</MeshMultipliers>
+					</Material>
+					<Material name="horse_white_mat">
+						<MeshMultipliers>
+							<MeshMultiplier mesh_multiplier="FF303030" percentage="1.0" />
+						</MeshMultipliers>
+					</Material>
+				</Materials>
+			</Horse>
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+
+</Items>

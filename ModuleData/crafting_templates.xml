@@ -39,8 +39,6 @@
 	  <UsablePiece piece_id="jousting_lance_handle_small_x"
                    mp_piece="true" />
 	   <UsablePiece piece_id="jousting_lance_pommel_x" />
-     <UsablePiece piece_id="atria_joustinglance_blue"/>
-	 <UsablePiece piece_id="atria_joustinglance_red"/>
     </UsablePieces>
 	</CraftingTemplate>
 	<CraftingTemplate
